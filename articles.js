@@ -39,6 +39,7 @@ const ARTICLES = [
 
 <p>Alors à quoi servent les conseils, si on ne peut pas les implanter ? À planter des graines, justement. Pas à provoquer le changement, mais à le préparer. On te dit une phrase, elle ne te fait rien sur le moment, elle se range quelque part et elle dort. Parfois des années. Et un jour ta propre vie vient la cogner, et là tu te dis « Oh, je vois». Ce jour-là, le conseil ne vient plus de l'autre. Il est devenu le tien. Et c'est seulement là, une fois qu'il vient de toi, qu'il se met enfin à agir.</p>`
   },
+  {
     id: "sur-de-soi-stagner",
     titre: "Être sûr de soi, c'est peut-être juste stagner",
     sousTitre: "Sur le calme trompeur de ceux qui ne sortent jamais de leur terrain",
@@ -55,21 +56,22 @@ const ARTICLES = [
 
 <p>Du coup, je ne sais plus trop quoi penser quand je croise quelqu'un de très sûr de lui. Une partie de moi l'envie, et une autre se demande depuis combien de temps il n'a pas mis les pieds en terrain inconnu. Et quand c'est moi qui me sens largué dans un truc nouveau, j'essaie de me rappeler que cette sensation pourrie, c'est aussi la seule preuve que je suis encore en train d'avancer.</p>`
   },
+  {
     id: "etre-moi-etre-quelquun",
     titre: "J'essaie d'être quelqu'un, et c'est là mon erreur",
     sousTitre: "Sur la différence entre devenir soi et se fabriquer un personnage",
     cat: "Soi",
     tweet: "« J'essaie plus d'être moi, j'essaie d'être quelqu'un. » La phrase qui résume comment on se perd : en visant une image au lieu d'une personne.",
     minutes: 4,
-    corps: `<p>J'essaie plus d'être moi, j'essaie d'être quelqu'un, c'est mon erreur, je me suis perdu. Je crois que cette phrase contient un piège dans lequel énormément de gens tombent sans le voir.</p>
+    corps: `<p>J'essaie pas d'être moi, j'essaie d'être quelqu'un, c'est mon erreur, je me suis perdu. Je me suis noté cette phrase un soir, et plus j'y repense, plus je trouve qu'elle décrit un piège dans lequel des tas de gens tombent sans même s'en rendre compte. Moi le premier.</p>
 
-<p>Être quelqu'un, c'est viser une image : être perçu comme intelligent, comme engagé, comme exceptionnel. C'est se construire de l'extérieur, en fonction du regard supposé des autres. Être soi, c'est l'inverse : partir de l'intérieur, de ce qu'on ressent et de ce qui compte vraiment, sans se soucier d'abord de l'effet produit. Les deux semblent proches. En réalité ils tirent dans des directions opposées.</p>
+<p>Parce qu'il y a une différence énorme entre les deux, et on la voit pas. Être quelqu'un, c'est courir après une image : passer pour intelligent, pour engagé, pour spécial. C'est se construire de dehors, en fonction de ce qu'on imagine que les autres pensent de nous. Être soi, c'est exactement l'inverse : partir du dedans, de ce qu'on ressent vraiment, de ce qui compte pour nous, sans d'abord se demander quel effet ça va faire. Ça paraît proche. En vrai ça tire dans deux directions opposées.</p>
 
-<p>Le philosophe Kierkegaard avait une formule terrible : la pire des désespérances, celle qu'on ne remarque même pas, c'est de vouloir être un autre que soi. On s'use à entretenir un personnage, et plus le personnage prend de place, moins il reste de soi en dessous. Un jour on regarde le résultat et on ne se reconnaît plus.</p>
+<p>Kierkegaard a eu une formule qui m'a marqué : la pire des détresses, c'est celle qu'on ne remarque même pas — vouloir être un autre que soi. Et ce qui est vicieux, c'est justement qu'on ne la voit pas venir. On entretient le personnage, on le peaufine, et plus il grossit, plus il bouffe la place de ce qu'il y avait en dessous. Jusqu'au jour où on se regarde et où on ne se reconnaît plus du tout.</p>
 
-<p>Ailleurs j'ai écrit, en m'adressant à moi-même : tu as basé ton amour-propre sur le fait d'être exceptionnel, mais c'est inatteignable. Je suis comme tout le monde, et c'est très bien. Ni mieux ni moins bien que quiconque. Je pense que c'est exactement le remède. Renoncer à être quelqu'un de spécial n'est pas une défaite. C'est ce qui libère la place pour être quelqu'un tout court.</p>
+<p>Je me suis écrit autre chose, ailleurs, qui répond pile à ça : tu as basé ton amour-propre sur le fait d'être exceptionnel, mais c'est inatteignable, mon pote. Je suis comme tout le monde, et c'est super en fait. Ni mieux ni moins bien que quiconque. Je crois que c'est exactement le remède. Lâcher l'idée d'être quelqu'un de spécial, ce n'est pas se résigner. C'est libérer la place pour être enfin soi-même.</p>
 
-<p>Le paradoxe, c'est qu'on ne devient jamais aussi singulier qu'en cessant d'essayer de l'être. Le personnage qu'on fabrique ressemble toujours à d'autres personnages. La personne qu'on est, elle, n'a pas d'équivalent — à condition d'arrêter de la maquiller.</p>`
+<p>Et il y a un truc marrant là-dedans : on n'est jamais aussi unique que quand on arrête d'essayer de l'être. Le personnage qu'on se fabrique, il ressemble toujours à d'autres personnages — c'est du déjà-vu. Alors que toi, le vrai, t'as pas d'équivalent. À condition d'arrêter de te maquiller pour ressembler à l'idée que tu te fais de quelqu'un de bien.</p>`
   },
   {
     id: "exceptionnel-comme-tout-le-monde",
