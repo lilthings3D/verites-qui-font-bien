@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Les vérités qui font bien</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Spectral:ital,wght@0,300;0,400;0,500;0,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f7efe1;--paper:#fbf6ec;--ink:#2e2218;--ink-soft:#5b4a39;
+    --orange:#d96e2c;--orange-deep:#b8521a;--rule:#e0cfb0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);color:var(--ink);font-family:'Spectral',Georgia,serif;line-height:1.6;padding:0 0 80px;}
+  .top{border-bottom:1.5px solid var(--ink);padding:28px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:12px;}
+  .top .brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.15rem;}
+  .top .brand b{color:var(--orange-deep);}
+  .top a{color:var(--ink-soft);font-size:0.9rem;text-decoration:none;border-bottom:1px solid var(--rule);}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  h1{font-family:'Fraunces',serif;font-weight:300;font-style:italic;font-size:2.4rem;margin:44px 0 8px;}
+  .intro{color:var(--ink-soft);margin-bottom:36px;font-size:1.02rem;}
+  .step{background:var(--paper);border:1.5px solid var(--rule);border-radius:14px;padding:22px 24px;margin-bottom:22px;}
+  .step h2{font-family:'Fraunces',serif;font-weight:600;font-size:1rem;letter-spacing:0.5px;color:var(--orange-deep);margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+  .step h2 .num{background:var(--ink);color:var(--cream);width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:0.85rem;}
+  label{display:block;font-family:'Fraunces',serif;font-size:0.82rem;letter-spacing:1px;text-transform:uppercase;color:var(--ink-soft);margin:16px 0 6px;}
+  input,textarea,select{width:100%;font-family:'Spectral',serif;font-size:1.02rem;padding:11px 14px;border:1.5px solid var(--rule);border-radius:9px;background:#fff;color:var(--ink);}
+  input:focus,textarea:focus,select:focus{outline:none;border-color:var(--orange);}
+  textarea{resize:vertical;min-height:90px;line-height:1.6;}
+  textarea.big{min-height:220px;}
+  .hint{font-size:0.84rem;color:var(--ink-soft);margin-top:5px;font-style:italic;}
+  .row{display:flex;gap:14px;}
+  .row>div{flex:1;}
+  button{font-family:'Fraunces',serif;font-size:0.95rem;letter-spacing:0.5px;background:var(--ink);color:var(--cream);border:none;padding:13px 26px;border-radius:30px;cursor:pointer;transition:background .2s;}
+  button:hover{background:var(--orange-deep);}
+  button.ghost{background:transparent;color:var(--ink-soft);border:1.5px solid var(--rule);}
+  button.ghost:hover{border-color:var(--orange);color:var(--orange-deep);background:transparent;}
+  .actions{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 28px;}
+  .output{margin-top:8px;}
+  pre{background:var(--ink);color:#f3e6d2;padding:20px;border-radius:12px;overflow:auto;font-family:ui-monospace,Menlo,monospace;font-size:0.82rem;line-height:1.55;white-space:pre-wrap;word-break:break-word;max-height:340px;}
+  .copied{color:var(--orange-deep);font-family:'Fraunces',serif;font-size:0.85rem;margin-left:12px;}
+  ol.guide{margin:10px 0 0 2px;padding-left:22px;}
+  ol.guide li{margin-bottom:12px;line-height:1.65;}
+  ol.guide code{background:#fff;border:1px solid var(--rule);border-radius:5px;padding:2px 7px;font-family:ui-monospace,monospace;font-size:0.88em;color:var(--orange-deep);}
+  ol.guide b{color:var(--ink);}
+  .preview{border:1.5px solid var(--rule);border-radius:12px;padding:22px;background:#fff;margin-top:8px;}
+  .preview .pcat{font-family:'Fraunces',serif;font-weight:600;font-size:0.72rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--orange-deep);}
+  .preview .ptitle{font-family:'Fraunces',serif;font-weight:400;font-size:1.6rem;line-height:1.1;margin:8px 0;}
+  .preview .psub{font-style:italic;color:var(--ink-soft);margin-bottom:14px;}
+  .preview .pbody p{margin-bottom:1em;}
+  .warn{font-size:0.85rem;color:#9a3b12;background:#fbe9dd;border:1px solid #f0c9b0;border-radius:9px;padding:10px 14px;margin-top:10px;display:none;}
+</style>
+</head>
+<body>
+<div class="top">
+  <span class="brand">Les vérités qui <b>font bien</b> · admin</span>
+  <a href="index.html">← voir le blog</a>
+</div>
+
+<div class="wrap">
+  <h1>Écrire un article</h1>
+  <p class="intro">Remplis les champs, clique sur « Générer le bloc », copie-le, puis colle-le dans le fichier <code>articles.js</code> sur GitHub. La marche à suivre exacte est tout en bas.</p>
+
+  <div class="step">
+    <h2><span class="num">1</span> Le contenu</h2>
+
+    <label>Titre</label>
+    <input id="titre" placeholder="Ex. : Toujours dans le bon sens, jamais dans la bonne direction">
+
+    <label>Sous-titre</label>
+    <input id="sousTitre" placeholder="Une phrase qui précise l'angle">
+
+    <div class="row">
+      <div>
+        <label>Catégorie</label>
+        <select id="cat">
+          <option>Vivre</option><option>Soi</option><option>Émotions</option>
+          <option>Penser</option><option>Société</option><option>Monde moderne</option>
+        </select>
+      </div>
+      <div>
+        <label>Minutes de lecture</label>
+        <input id="minutes" type="number" value="4" min="1" max="20">
+      </div>
+    </div>
+
+    <label>Corps de l'article</label>
+    <textarea id="corps" class="big" placeholder="Écris normalement. Sépare tes paragraphes par une ligne vide — chaque paragraphe sera mis en forme automatiquement.
+
+Pas besoin de balises : laisse juste une ligne vide entre chaque paragraphe."></textarea>
+    <p class="hint">Sépare les paragraphes par une ligne vide. Pour mettre un mot en italique, entoure-le d'astérisques : *comme ceci*.</p>
+
+    <label>Tweet d'accroche</label>
+    <textarea id="tweet" placeholder="La phrase qui donne envie de cliquer (max ~280 caractères)"></textarea>
+    <p class="hint"><span id="twcount">0</span> / 280 caractères</p>
+    <div class="warn" id="twwarn">Le tweet dépasse 280 caractères — pense à le raccourcir.</div>
+  </div>
+
+  <div class="step">
+    <h2><span class="num">2</span> Aperçu</h2>
+    <div class="preview" id="preview"><em style="color:var(--ink-soft)">L'aperçu apparaîtra ici dès que tu écris…</em></div>
+  </div>
+
+  <div class="step">
+    <h2><span class="num">3</span> Générer le code</h2>
+    <div class="actions">
+      <button onclick="generate()">Générer le bloc</button>
+      <button class="ghost" onclick="copyCode()">Copier <span id="copied" class="copied"></span></button>
+    </div>
+    <div class="output"><pre id="code">// Clique sur « Générer le bloc »…</pre></div>
+  </div>
+
+  <div class="step">
+    <h2><span class="num">4</span> Le coller sur GitHub</h2>
+    <ol class="guide">
+      <li>Sur ton dépôt GitHub, ouvre le fichier <code>articles.js</code> et clique sur l'icône <b>crayon</b> (✏️) en haut à droite pour l'éditer.</li>
+      <li>Trouve la toute première ligne <code>const ARTICLES = [</code>. Place ton curseur <b>juste après le <code>[</code></b>, à la ligne suivante.</li>
+      <li><b>Colle</b> le bloc que tu viens de copier. Ton nouvel article apparaîtra en premier sur le blog. (Pour le mettre ailleurs, colle-le entre deux articles existants, après une accolade <code>},</code>.)</li>
+      <li>Descends en bas de la page, clique sur <b>Commit changes</b> (le bouton vert), puis confirme.</li>
+      <li>Attends une à deux minutes : GitHub Pages republie le site tout seul. Recharge ton blog, l'article est là.</li>
+    </ol>
+    <p class="hint">Astuce : le bloc se termine déjà par une virgule, donc tu peux en empiler autant que tu veux les uns sous les autres.</p>
+  </div>
+</div>
+
+<script>
+function slugify(s){
+  return (s||'').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,60) || 'article';
+}
+function escTemplate(s){ return (s||'').replace(/\\/g,'\\\\').replace(/`/g,'\\`').replace(/\$\{/g,'\\${'); }
+function escAttr(s){ return (s||'').replace(/\\/g,'\\\\').replace(/"/g,'\\"'); }
+
+// transforme texte brut -> paragraphes <p>…</p> avec *italique*
+function toHTML(raw){
+  const blocks=(raw||'').split(/\n\s*\n/).map(b=>b.trim()).filter(Boolean);
+  return blocks.map(b=>{
+    const t=b.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+             .replace(/\*(.+?)\*/g,'<em>$1</em>');
+    return '<p>'+t+'</p>';
+  }).join('');
+}
+
+function updatePreview(){
+  const cat=document.getElementById('cat').value;
+  const titre=document.getElementById('titre').value||'Sans titre';
+  const sub=document.getElementById('sousTitre').value||'';
+  const body=toHTML(document.getElementById('corps').value)||'<p><em style="color:#999">…</em></p>';
+  document.getElementById('preview').innerHTML=
+    '<div class="pcat">'+cat+'</div><div class="ptitle">'+titre+'</div><div class="psub">'+sub+'</div><div class="pbody">'+body+'</div>';
+  const tw=document.getElementById('tweet').value;
+  document.getElementById('twcount').textContent=tw.length;
+  document.getElementById('twwarn').style.display=tw.length>280?'block':'none';
+}
+
+function generate(){
+  const cat=document.getElementById('cat').value;
+  const titre=document.getElementById('titre').value.trim();
+  const sub=document.getElementById('sousTitre').value.trim();
+  const min=document.getElementById('minutes').value||4;
+  const corpsHTML=toHTML(document.getElementById('corps').value);
+  const tweet=document.getElementById('tweet').value.trim();
+  const id=slugify(titre);
+
+  const block =
+'  {\n'+
+'    id: "'+escAttr(id)+'",\n'+
+'    titre: "'+escAttr(titre)+'",\n'+
+'    sousTitre: "'+escAttr(sub)+'",\n'+
+'    cat: "'+escAttr(cat)+'",\n'+
+'    tweet: "'+escAttr(tweet)+'",\n'+
+'    minutes: '+parseInt(min,10)+',\n'+
+'    corps: `'+escTemplate(corpsHTML)+'`\n'+
+'  },';
+
+  document.getElementById('code').textContent=block;
+}
+
+function copyCode(){
+  const txt=document.getElementById('code').textContent;
+  navigator.clipboard.writeText(txt).then(()=>{
+    document.getElementById('copied').textContent='copié ✓';
+    setTimeout(()=>document.getElementById('copied').textContent='',1800);
+  });
+}
+
+['titre','sousTitre','cat','corps','tweet','minutes'].forEach(id=>{
+  document.getElementById(id).addEventListener('input',updatePreview);
+});
+updatePreview();
+</script>
+</body>
+</html>
