@@ -1,24 +1,20 @@
 const ARTICLES = [
   {
-    id: "bon-sens-bonne-direction",
-    titre: "Toujours dans le bon sens, jamais dans la bonne direction",
-    sousTitre: "Sur un monde devenu trop complexe pour qu'on puisse bien y agir",
-    cat: "Vivre",
-    tweet: "Je sais ce qui est bon pour moi. Je sais ce qui abîme la planète. Et entre les deux, aucune direction qui fasse du bien aux deux à la fois. On avance dans le bon sens vers nulle part.",
+    id: "sur-de-soi-stagner",
+    titre: "Être sûr de soi, c'est peut-être juste stagner",
+    sousTitre: "Sur le calme trompeur de ceux qui ne sortent jamais de leur terrain",
+    cat: "Soi",
+    tweet: "Et si la confiance en soi qu'on admire chez les autres n'était que le confort de ne jamais quitter ce qu'on maîtrise déjà ? Une idée qui dérange.",
     minutes: 4,
-    corps:`<p>Il y a une phrase qui me revient souvent : je suis dans le bon sens, mais pas dans la bonne direction. Longtemps je l'ai prise pour une histoire de cap personnel. Je crois maintenant qu'elle dit autre chose, de plus lourd. Elle dit qu'on peut faire chaque geste correctement et n'aller, malgré tout, dans aucune direction qui soit bonne.</p>
- 
-<p>Le bon sens, c'est l'échelle du geste. Manger sain, faire attention, trier, ne pas gaspiller, essayer de bien faire à ma petite place. À ce niveau-là, je sais à peu près ce qui est juste. Mais dès que je lève les yeux vers la direction d'ensemble, tout se brouille. Parce qu'il n'existe pas, ou plus, de chemin qui soit bon à la fois pour moi et pour le monde. C'est ça le piège, et il a trois mâchoires.</p>
- 
-<p>La première : ce qui me fait du bien coûte au monde. Ma vie confortable, mes déplacements, mon chauffage, la moindre de mes commodités a un prix écologique que je connais. Je me suis même demandé, un soir, si mon existence même n'était pas un désastre écologique. Vivre bien et ne pas nuire semblent devenus incompatibles, et je suis sommé de choisir un camp dans ma propre vie.</p>
- 
-<p>La deuxième : même si j'acceptais de me sacrifier, rien ne dit que ça servirait. Mon geste individuel est une goutte dans un système qui me dépasse de toutes parts. Je peux me priver, m'astreindre, culpabiliser — l'aiguille ne bouge pas. Alors le sacrifice lui-même perd son sens : il ne sauve pas le monde, il ne fait que m'abîmer, moi, en pure perte. Ni le confort ni le renoncement ne mènent quelque part.</p>
- 
-<p>La troisième, la plus vertigineuse : dans un monde aussi complexe, je ne suis même plus sûr de savoir ce qui est bon. Chaque solution traîne ses effets pervers. Le geste écologique cache parfois une nuisance ailleurs, le produit vertueux a une face sombre qu'on découvre dix ans plus tard. Les spécialistes appellent ça des problèmes « pernicieux » : des problèmes où il n'existe aucune solution propre, seulement des arbitrages, et où vouloir résoudre une chose en aggrave une autre. Le bien lui-même est devenu illisible.</p>
- 
-<p>Les trois mâchoires se referment ensemble. Mon bien contre celui de la planète. Mon effort qui ne pèse rien. Et l'impossibilité de savoir, au fond, où est le bien. Aucune des trois ne se résout sans buter sur les deux autres. C'est un nœud et on ne le dénoue pas en tirant sur un fil.</p>
- 
-<p>Je n'ai pas de sortie à proposer, et je me méfie de ceux qui en vendent. Dire « fais ta part, ça suffit » serait mentir sur l'échelle du problème. Dire « tout est foutu, profite » serait mentir sur ce qui compte. En réalité, personne ne sait où va l'humanité — alors comment garder le cap ?</p>`
+    corps: `<p>Je crois qu'on a l'air calme et sûr de soi quand on domine son environnement. Prends le gars qui ne s'intéresse qu'au foot. Il ne connaît que ça, il ne parle que de ça, il ne fait que ça. Forcément il a l'air solide : il passe sa vie sur un terrain qu'il maîtrise par cœur. Mais sors-le de là, lance-lui un sujet qu'il ne connaît pas, et regarde l'assurance se dégonfler d'un coup. Elle n'était pas en lui. Elle était dans le terrain.</p>
+
+<p>Et ça m'amène à une idée un peu désagréable, mais que je trouve assez juste : être sûr de soi, ce serait souvent juste rester planté dans ce qu'on connaît déjà. Cette confiance qu'on admire chez quelqu'un, ce n'est parfois rien d'autre que le signe qu'il ne s'aventure jamais ailleurs. Il a l'air inébranlable parce qu'il s'arrange pour ne jamais être sur un sol qui bouge.</p>
+
+<p>Il y a un truc en psycho qui colle bien là-dessus, l'effet Dunning-Kruger : plus tu es nul dans un domaine, moins tu as les outils pour voir à quel point tu es nul — donc plus tu te sens sûr de toi. Et c'est l'inverse pour les vrais bons : eux doutent, parce qu'ils voient l'immensité de ce qu'ils ne maîtrisent pas encore. Autrement dit, l'assurance et la compétence ne vont pas forcément ensemble. Parfois elles vont même dans le sens opposé.</p>
+
+<p>Attention, je ne dis pas qu'il faut se détester quand on doute. Au contraire. Le doute, le malaise, cette sensation horrible de patauger — c'est très souvent le signe qu'on est en train de quitter son terrain pour un autre, plus grand. C'est juste le prix de l'apprentissage. Celui qui ne doute jamais n'est peut-être pas plus fort que toi. Il a juste arrêté de bouger.</p>
+
+<p>Du coup, je ne sais plus trop quoi penser quand je croise quelqu'un de très sûr de lui. Une partie de moi l'envie, et une autre se demande depuis combien de temps il n'a pas mis les pieds en terrain inconnu. Et quand c'est moi qui me sens largué dans un truc nouveau, j'essaie de me rappeler que cette sensation pourrie, c'est aussi la seule preuve que je suis encore en train d'avancer.</p>`
   },
   {
     id: "conseils-viennent-de-toi",
@@ -40,21 +36,25 @@ const ARTICLES = [
 <p>Alors à quoi servent les conseils, si on ne peut pas les implanter ? À planter des graines, justement. Pas à provoquer le changement, mais à le préparer. On te dit une phrase, elle ne te fait rien sur le moment, elle se range quelque part et elle dort. Parfois des années. Et un jour ta propre vie vient la cogner, et là tu te dis « Oh, je vois». Ce jour-là, le conseil ne vient plus de l'autre. Il est devenu le tien. Et c'est seulement là, une fois qu'il vient de toi, qu'il se met enfin à agir.</p>`
   },
   {
-    id: "sur-de-soi-stagner",
-    titre: "Être sûr de soi, c'est peut-être juste stagner",
-    sousTitre: "Sur le calme trompeur de ceux qui ne sortent jamais de leur terrain",
-    cat: "Soi",
-    tweet: "Et si la confiance en soi qu'on admire chez les autres n'était que le confort de ne jamais quitter ce qu'on maîtrise déjà ? Une idée qui dérange.",
+    id: "bon-sens-bonne-direction",
+    titre: "Toujours dans le bon sens, jamais dans la bonne direction",
+    sousTitre: "Sur un monde devenu trop complexe pour qu'on puisse bien y agir",
+    cat: "Vivre",
+    tweet: "Je sais ce qui est bon pour moi. Je sais ce qui abîme la planète. Et entre les deux, aucune direction qui fasse du bien aux deux à la fois. On avance dans le bon sens vers nulle part.",
     minutes: 4,
-    corps: `<p>Je crois qu'on a l'air calme et sûr de soi quand on domine son environnement. Prends le gars qui ne s'intéresse qu'au foot. Il ne connaît que ça, il ne parle que de ça, il ne fait que ça. Forcément il a l'air solide : il passe sa vie sur un terrain qu'il maîtrise par cœur. Mais sors-le de là, lance-lui un sujet qu'il ne connaît pas, et regarde l'assurance se dégonfler d'un coup. Elle n'était pas en lui. Elle était dans le terrain.</p>
-
-<p>Et ça m'amène à une idée un peu désagréable, mais que je trouve assez juste : être sûr de soi, ce serait souvent juste rester planté dans ce qu'on connaît déjà. Cette confiance qu'on admire chez quelqu'un, ce n'est parfois rien d'autre que le signe qu'il ne s'aventure jamais ailleurs. Il a l'air inébranlable parce qu'il s'arrange pour ne jamais être sur un sol qui bouge.</p>
-
-<p>Il y a un truc en psycho qui colle bien là-dessus, l'effet Dunning-Kruger : plus tu es nul dans un domaine, moins tu as les outils pour voir à quel point tu es nul — donc plus tu te sens sûr de toi. Et c'est l'inverse pour les vrais bons : eux doutent, parce qu'ils voient l'immensité de ce qu'ils ne maîtrisent pas encore. Autrement dit, l'assurance et la compétence ne vont pas forcément ensemble. Parfois elles vont même dans le sens opposé.</p>
-
-<p>Attention, je ne dis pas qu'il faut se détester quand on doute. Au contraire. Le doute, le malaise, cette sensation horrible de patauger — c'est très souvent le signe qu'on est en train de quitter son terrain pour un autre, plus grand. C'est juste le prix de l'apprentissage. Celui qui ne doute jamais n'est peut-être pas plus fort que toi. Il a juste arrêté de bouger.</p>
-
-<p>Du coup, je ne sais plus trop quoi penser quand je croise quelqu'un de très sûr de lui. Une partie de moi l'envie, et une autre se demande depuis combien de temps il n'a pas mis les pieds en terrain inconnu. Et quand c'est moi qui me sens largué dans un truc nouveau, j'essaie de me rappeler que cette sensation pourrie, c'est aussi la seule preuve que je suis encore en train d'avancer.</p>`
+    corps:`<p>Il y a une phrase qui me revient souvent : je suis dans le bon sens, mais pas dans la bonne direction. Longtemps je l'ai prise pour une histoire de cap personnel. Je crois maintenant qu'elle dit autre chose, de plus lourd. Elle dit qu'on peut faire chaque geste correctement et n'aller, malgré tout, dans aucune direction qui soit bonne.</p>
+ 
+<p>Le bon sens, c'est l'échelle du geste. Manger sain, faire attention, trier, ne pas gaspiller, essayer de bien faire à ma petite place. À ce niveau-là, je sais à peu près ce qui est juste. Mais dès que je lève les yeux vers la direction d'ensemble, tout se brouille. Parce qu'il n'existe pas, ou plus, de chemin qui soit bon à la fois pour moi et pour le monde. C'est ça le piège, et il a trois mâchoires.</p>
+ 
+<p>La première : ce qui me fait du bien coûte au monde. Ma vie confortable, mes déplacements, mon chauffage, la moindre de mes commodités a un prix écologique que je connais. Je me suis même demandé, un soir, si mon existence même n'était pas un désastre écologique. Vivre bien et ne pas nuire semblent devenus incompatibles, et je suis sommé de choisir un camp dans ma propre vie.</p>
+ 
+<p>La deuxième : même si j'acceptais de me sacrifier, rien ne dit que ça servirait. Mon geste individuel est une goutte dans un système qui me dépasse de toutes parts. Je peux me priver, m'astreindre, culpabiliser — l'aiguille ne bouge pas. Alors le sacrifice lui-même perd son sens : il ne sauve pas le monde, il ne fait que m'abîmer, moi, en pure perte. Ni le confort ni le renoncement ne mènent quelque part.</p>
+ 
+<p>La troisième, la plus vertigineuse : dans un monde aussi complexe, je ne suis même plus sûr de savoir ce qui est bon. Chaque solution traîne ses effets pervers. Le geste écologique cache parfois une nuisance ailleurs, le produit vertueux a une face sombre qu'on découvre dix ans plus tard. Les spécialistes appellent ça des problèmes « pernicieux » : des problèmes où il n'existe aucune solution propre, seulement des arbitrages, et où vouloir résoudre une chose en aggrave une autre. Le bien lui-même est devenu illisible.</p>
+ 
+<p>Les trois mâchoires se referment ensemble. Mon bien contre celui de la planète. Mon effort qui ne pèse rien. Et l'impossibilité de savoir, au fond, où est le bien. Aucune des trois ne se résout sans buter sur les deux autres. C'est un nœud et on ne le dénoue pas en tirant sur un fil.</p>
+ 
+<p>Je n'ai pas de sortie à proposer, et je me méfie de ceux qui en vendent. Dire « fais ta part, ça suffit » serait mentir sur l'échelle du problème. Dire « tout est foutu, profite » serait mentir sur ce qui compte. En réalité, personne ne sait où va l'humanité — alors comment garder le cap ?</p>`
   },
   {
     id: "etre-moi-etre-quelquun",
