@@ -2,19 +2,23 @@ const ARTICLES = [
   {
     id: "bon-sens-bonne-direction",
     titre: "Toujours dans le bon sens, jamais dans la bonne direction",
-    sousTitre: "Sur l'illusion de l'effort qui n'avance pas",
+    sousTitre: "Sur un monde devenu trop complexe pour qu'on puisse bien y agir",
     cat: "Vivre",
-    tweet: "On peut courir vite toute sa vie sans jamais regarder la carte. « Bon sens » et « bonne direction », ce n'est pas la même chose — et on confond les deux tout le temps.",
+    tweet: "Je sais ce qui est bon pour moi. Je sais ce qui abîme la planète. Et entre les deux, aucune direction qui fasse du bien aux deux à la fois. On avance dans le bon sens vers nulle part.",
     minutes: 4,
-    corps: `<p>Il y a une phrase qui me revient souvent : on est toujours dans le bon sens, jamais dans la bonne direction. Le bon sens, c'est rouler proprement sur sa file, respecter les règles, faire ce qu'on attend de nous. La bonne direction, c'est savoir où l'on va. On peut très bien faire l'un sans l'autre. C'est même le cas le plus courant.</p>
-
-<p>On nous apprend tôt à être dans le bon sens. Être sérieux, ne pas déranger, cocher les cases dans l'ordre. Personne ne nous apprend à choisir une direction, parce que choisir une direction suppose de renoncer à toutes les autres, et le renoncement fait peur. Alors on reste dans le mouvement. On confond la vitesse avec le cap.</p>
-
-<p>Sénèque disait à peu près ceci à son ami Lucilius : aucun vent n'est favorable à celui qui ne sait pas vers quel port il fait voile. C'est exactement ça. Le marin qui ne sait pas où il va trouvera tous les vents contraires, parce qu'aucun vent ne peut le rapprocher d'un endroit qu'il n'a pas choisi. L'effort, sans direction, ne fait que t'épuiser plus vite à rester au même endroit.</p>
-
-<p>Le piège, c'est que l'effort est rassurant. Tant que je m'agite, j'ai le sentiment de faire ma part. Je peux me dire « j'ai tout donné » même si je n'ai donné dans aucune direction précise. C'est confortable, et c'est stérile.</p>
-
-<p>Je n'ai pas de méthode miracle. Mais je crois que la première chose à faire, avant d'accélérer, c'est de s'arrêter assez longtemps pour répondre à une question bête : si je continue exactement comme ça pendant dix ans, est-ce que ça me mène quelque part où je veux aller ? Si la réponse est non, alors ralentir n'est pas une perte de temps. C'est la seule chose utile à faire.</p>`
+    corps:`<p>Il y a une phrase qui me revient souvent : je suis dans le bon sens, mais pas dans la bonne direction. Longtemps je l'ai prise pour une histoire de cap personnel. Je crois maintenant qu'elle dit autre chose, de plus lourd. Elle dit qu'on peut faire chaque geste correctement et n'aller, malgré tout, dans aucune direction qui soit bonne.</p>
+ 
+<p>Le bon sens, c'est l'échelle du geste. Manger sain, faire attention, trier, ne pas gaspiller, essayer de bien faire à ma petite place. À ce niveau-là, je sais à peu près ce qui est juste. Mais dès que je lève les yeux vers la direction d'ensemble, tout se brouille. Parce qu'il n'existe pas, ou plus, de chemin qui soit bon à la fois pour moi et pour le monde. C'est ça le piège, et il a trois mâchoires.</p>
+ 
+<p>La première : ce qui me fait du bien coûte au monde. Ma vie confortable, mes déplacements, mon chauffage, la moindre de mes commodités a un prix écologique que je connais. Je me suis même demandé, un soir, si mon existence même n'était pas un désastre écologique. Vivre bien et ne pas nuire semblent devenus incompatibles, et je suis sommé de choisir un camp dans ma propre vie.</p>
+ 
+<p>La deuxième : même si j'acceptais de me sacrifier, rien ne dit que ça servirait. Mon geste individuel est une goutte dans un système qui me dépasse de toutes parts. Je peux me priver, m'astreindre, culpabiliser — l'aiguille ne bouge pas. Alors le sacrifice lui-même perd son sens : il ne sauve pas le monde, il ne fait que m'abîmer, moi, en pure perte. Ni le confort ni le renoncement ne mènent quelque part.</p>
+ 
+<p>La troisième, la plus vertigineuse : dans un monde aussi complexe, je ne suis même plus sûr de savoir ce qui est bon. Chaque solution traîne ses effets pervers. Le geste écologique cache parfois une nuisance ailleurs, le produit vertueux a une face sombre qu'on découvre dix ans plus tard. Les spécialistes appellent ça des problèmes « pernicieux » : des problèmes où il n'existe aucune solution propre, seulement des arbitrages, et où vouloir résoudre une chose en aggrave une autre. Le bien lui-même est devenu illisible.</p>
+ 
+<p>Les trois mâchoires se referment ensemble. Mon bien contre celui de la planète. Mon effort qui ne pèse rien. Et l'impossibilité de savoir, au fond, où est le bien. Aucune des trois ne se résout sans buter sur les deux autres. C'est un nœud et on ne le dénoue pas en tirant sur un fil.</p>
+ 
+<p>Je n'ai pas de sortie à proposer, et je me méfie de ceux qui en vendent. Dire « fais ta part, ça suffit » serait mentir sur l'échelle du problème. Dire « tout est foutu, profite » serait mentir sur ce qui compte. En réalité, personne ne sait où va l'humanité — alors comment garder le cap ?</p>`
   },
   {
     id: "conseils-viennent-de-toi",
