@@ -97,15 +97,15 @@ const ARTICLES = [
     cat: "Émotions",
     tweet: "Et si la colère n'était jamais la vraie émotion, mais toujours la couverture d'une peur ? Une grille de lecture qui change la façon de se regarder s'énerver.",
     minutes: 4,
-    corps: `<p>Quand tu es en colère, c'est que tu as peur. Je me suis noté cette phrase comme un principe, et plus je l'observe, plus elle me semble juste.</p>
+    corps: `<p>Quand tu es en colère, c'est que tu as peur. Je me suis noté ça comme un principe, un peu au hasard, et depuis je n'arrête pas de le vérifier. À chaque fois que je m'énerve, si je creuse deux secondes, il y a une trouille planquée juste en dessous.</p>
 
-<p>La colère a quelque chose de pratique : elle nous met en position haute. On a l'air fort, on déborde d'énergie, on domine la scène. C'est précisément ce qui la rend si commode pour masquer une peur, qui elle nous met en position basse. Personne n'aime se sentir vulnérable. La colère est le déguisement le plus rapide de la vulnérabilité.</p>
+<p>Le truc, c'est que la colère, c'est hyper pratique. Elle te met en position haute. T'as l'air fort, t'es plein d'énergie, c'est toi qui domines la scène. La peur, elle, fait exactement l'inverse : elle te met en position basse, vulnérable, à découvert. Et comme personne n'a envie de se sentir vulnérable, on enfile la colère par-dessus. C'est le déguisement le plus rapide qu'on ait sous la main pour cacher qu'on a peur.</p>
 
-<p>J'ai remarqué un mécanisme chez moi, et je pense ne pas être le seul. Parfois je place inconsciemment la personne en face dans une situation où elle doit commettre une erreur, comme ça je peux m'énerver contre elle et, du même coup, me hisser au-dessus d'elle. Je fais souvent ça en voiture. C'est presque automatique. Et au fond de cette manœuvre, il n'y a pas de la force : il y a la peur de ne pas valoir grand-chose, qu'on tente de compenser en rabaissant l'autre.</p>
+<p>J'ai repéré un truc chez moi, et je suis sûr de pas être le seul à le faire. Des fois, sans m'en rendre compte, je mets l'autre dans une situation où il va forcément faire une erreur — juste pour pouvoir m'énerver contre lui, et du coup me sentir au-dessus. Je fais ça tout le temps en voiture. C'est quasi automatique. Et quand je regarde honnêtement ce qu'il y a derrière, c'est pas de la force. C'est la peur de pas valoir grand-chose, que j'essaie de compenser en rabaissant quelqu'un d'autre.</p>
 
-<p>Certaines approches thérapeutiques parlent de la colère comme d'une émotion secondaire : une réaction qui en recouvre une autre, plus difficile à regarder en face — la peur, la honte, le sentiment d'être menacé ou délaissé. La colère est rarement le fond du problème. Elle en est la surface.</p>
+<p>Y a des thérapeutes qui appellent ça une émotion secondaire : une réaction qui en planque une autre, plus dure à regarder en face — la peur, la honte, le sentiment d'être menacé ou laissé de côté. La colère est presque jamais le vrai problème. C'est juste la couche du dessus.</p>
 
-<p>Ça change la pratique. La prochaine fois que la colère monte, au lieu de la suivre ou de la réprimer, on peut poser une seule question : de quoi est-ce que j'ai peur, là, maintenant ? Très souvent une réponse apparaît, et elle désamorce tout. On ne peut pas raisonner avec sa colère. On peut écouter la peur qui se cache dessous.</p>`
+<p>Et ça change tout, concrètement. La prochaine fois que ça monte, au lieu de foncer dedans ou de te forcer à ravaler, tu peux te poser une seule question : de quoi j'ai peur, là, maintenant ? La plupart du temps une réponse arrive, et rien que de l'avoir nommée, ça dégonfle le truc. Parce qu'on ne raisonne pas avec sa colère. Mais on peut écouter la peur qui se cache en dessous.</p>`
   },
   {
     id: "pensee-tas-de-sable",
@@ -114,13 +114,13 @@ const ARTICLES = [
     cat: "Penser",
     tweet: "Tu verses un seau d'infos dans ta tête : d'abord ça forme un pic instable, puis ça s'effondre lentement et s'étale. Plus le tas est large, plus il peut en accueillir. Petite théorie de l'apprentissage.",
     minutes: 3,
-    corps: `<p>Je vois la pensée comme un tas de sable. Quand tu y verses un seau d'informations nouvelles, ça forme d'abord un pic, pointu et instable. Puis lentement le pic glisse, le sable s'étale, et tout se redépose au sol. Et plus ton tas est large à la base, plus tu peux y verser de sable sans qu'il déborde.</p>
+    corps: `<p>Je vois la pensée comme un tas de sable. Tu verses un seau d'infos nouvelles dessus, et au début ça fait un pic — pointu, raide, instable. Ça tient pas. Puis lentement le pic s'affaisse, le sable glisse sur les côtés et finit par se redéposer tranquillement au sol. Et le truc, c'est que plus ton tas est large à la base, plus tu peux en verser sans que ça déborde.</p>
 
-<p>J'aime cette image parce qu'elle décrit une chose qu'on vit sans toujours la nommer. Quand on apprend quelque chose de nouveau, il y a d'abord un moment où tout est en désordre, en surplomb, prêt à s'écrouler — on a reçu l'info mais elle ne tient pas encore. Puis vient la phase lente où ça se range tout seul, souvent sans qu'on y pense, parfois pendant le sommeil. C'est seulement après que la connaissance est devenue stable, intégrée, utilisable.</p>
+<p>Si j'aime bien cette image, c'est qu'elle décrit un truc qu'on vit tout le temps sans jamais le nommer. Quand t'apprends quelque chose, y a d'abord ce moment où tout est en vrac, en équilibre, prêt à te tomber dessus — t'as reçu l'info mais elle tient pas encore, tu pourrais pas la réexpliquer. Et puis y a la phase lente, où ça se range tout seul, souvent sans que t'y penses, parfois carrément pendant que tu dors. C'est seulement après ça que le truc est vraiment à toi : stable, rangé, utilisable.</p>
 
-<p>La science cognitive a un nom pour ce délai : la consolidation. On n'apprend pas vraiment au moment où l'on reçoit l'information, mais après, quand le cerveau la réorganise et la relie à ce qu'on savait déjà. D'où l'importance du repos, et l'inefficacité du bachotage de dernière minute : on empile du sable au sommet sans laisser le tas s'étaler.</p>
+<p>Les scientifiques ont un mot pour ce délai : la consolidation. En gros, t'apprends pas au moment où tu reçois l'info, mais après, quand ton cerveau la réorganise tranquillement et la branche sur ce que tu savais déjà. C'est pour ça que dormir compte autant, et c'est pour ça que bachoter la veille marche si mal : tu balances du sable au sommet du pic sans jamais laisser le tas s'étaler.</p>
 
-<p>L'autre partie de l'image me plaît tout autant : plus le tas est large, plus il accueille. Autrement dit, plus tu en sais, plus tu apprends vite, parce que chaque nouvelle info trouve déjà des points d'accroche. Le savoir n'est pas un sac qu'on remplit jusqu'à saturation. C'est une base qui s'élargit et qui rend la suite plus facile. Ce qui est une excellente raison de ne jamais arrêter d'en verser.</p>`
+<p>Mais c'est la deuxième partie de l'image que je préfère : plus le tas est large, plus il avale. Autrement dit, plus tu en sais déjà, plus tu apprends vite — parce que chaque nouvelle info trouve tout de suite où s'accrocher. Le savoir, c'est pas un sac qui se remplit jusqu'à être plein. C'est une base qui s'élargit et qui rend tout le reste plus facile à attraper ensuite. Ce qui est, quand on y pense, la meilleure raison du monde pour ne jamais s'arrêter d'en verser.</p>`
   },
   {
     id: "pubs-trucs-inutiles",
