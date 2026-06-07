@@ -14,8 +14,8 @@ const ARTICLES = [
 
 <p>Attention, je ne dis pas qu'il faut se détester quand on doute. Au contraire. Le doute, le malaise, cette sensation horrible de patauger — c'est très souvent le signe qu'on est en train de quitter son terrain pour un autre, plus grand. C'est juste le prix de l'apprentissage. Celui qui ne doute jamais n'est peut-être pas plus fort que toi. Il a juste arrêté de bouger.</p>
 
-<p>Du coup, je ne sais plus trop quoi penser quand je croise quelqu'un de très sûr de lui. Une partie de moi l'envie, et une autre se demande depuis combien de temps il n'a pas mis les pieds en terrain inconnu. Et quand c'est moi qui me sens largué dans un truc nouveau, j'essaie de me rappeler que cette sensation pourrie, c'est aussi la seule preuve que je suis encore en train d'avancer.</p>`
-  brouillon: true  
+<p>Du coup, je ne sais plus trop quoi penser quand je croise quelqu'un de très sûr de lui. Une partie de moi l'envie, et une autre se demande depuis combien de temps il n'a pas mis les pieds en terrain inconnu. Et quand c'est moi qui me sens largué dans un truc nouveau, j'essaie de me rappeler que cette sensation pourrie, c'est aussi la seule preuve que je suis encore en train d'avancer.</p>`,
+    brouillon: true
   },
   {
     id: "bon-sens-bonne-direction",
