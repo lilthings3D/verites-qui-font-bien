@@ -208,67 +208,47 @@
     cursor:pointer;
   }
   .more-link:hover{color:var(--orange-deep);}
-  
-<!-- ===== SECTION COMMENTAIRES ===== -->
-<section id="commentaires" style="
-  max-width: 680px;
-  margin: 70px auto 40px;
-  padding: 36px 32px;
-  background: #fdf6ec;
-  border: 1px solid #e8ddc9;
-  border-radius: 12px;
-  font-family: 'Spectral', serif;
-">
-  <h2 style="
-    font-family: 'Fraunces', serif;
-    font-size: 1.7rem;
-    color: #c75b1e;
-    margin: 0 0 6px;
-  ">Réactions</h2>
 
-  <p style="color:#6b5d4a; margin:0 0 24px; line-height:1.5; font-size:0.98rem;">
-    Connecte-toi en un clic avec un compte GitHub pour réagir.
-  </p>
+  /* ============ COMMENTAIRES ============ */
+  .comments{
+    max-width:680px;margin:60px auto 0;padding:36px 0 0;
+    border-top:1.5px solid var(--ink);font-family:'Spectral',serif;
+  }
+  .comments h2{
+    font-family:'Fraunces',serif;font-weight:300;font-size:1.7rem;
+    color:var(--orange-deep);margin:0 0 6px;
+  }
+  .comments .c-intro{
+    color:var(--ink-soft);margin:0 0 24px;line-height:1.5;font-size:0.98rem;
+  }
 
-  <div id="giscus-container"></div>
-</section>
+  /* ============ CONTACT ============ */
+  .contact{
+    max-width:600px;margin:80px auto 0;padding:40px 32px;
+    background:var(--paper);border:1px solid var(--rule);border-radius:12px;
+    font-family:'Spectral',serif;
+  }
+  .contact h2{
+    font-family:'Fraunces',serif;font-weight:300;font-size:1.9rem;
+    color:var(--orange-deep);margin:0 0 8px;
+  }
+  .contact .ct-intro{color:var(--ink-soft);margin:0 0 28px;line-height:1.5;}
+  .contact label{display:block;margin-bottom:6px;color:var(--ink);font-size:0.95rem;}
+  .contact input,.contact textarea{
+    width:100%;padding:12px;margin-bottom:18px;
+    border:1px solid var(--rule-strong);border-radius:8px;
+    background:#fffdf8;font-family:'Spectral',serif;font-size:1rem;
+    box-sizing:border-box;color:var(--ink);
+  }
+  .contact textarea{margin-bottom:22px;resize:vertical;}
+  .contact input:focus,.contact textarea:focus{outline:none;border-color:var(--orange);}
+  .contact button{
+    background:var(--orange-deep);color:#fff;border:none;
+    padding:13px 32px;border-radius:8px;
+    font-family:'Fraunces',serif;font-size:1rem;cursor:pointer;transition:background .2s;
+  }
+  .contact button:hover{background:#8f3f12;}
 
-<script>
-function chargerGiscus() {
-  const container = document.getElementById('giscus-container');
-  if (!container) return;
-  container.innerHTML = ''; // on vide avant de recharger
-
-  // identifiant de l'article = le texte après le #, ou "accueil" si vide
-  const terme = window.location.hash.slice(1) || 'accueil';
-
-  const s = document.createElement('script');
-  s.src = 'https://giscus.app/client.js';
-  s.setAttribute('data-repo', 'lilThings3D/tete-vide');
-  s.setAttribute('data-repo-id', 'R_kgDOSwNDcw');
-  s.setAttribute('data-category', 'Announcements');
-  s.setAttribute('data-category-id', 'DIC_kwDOSwNDc84C-rcL');
-  s.setAttribute('data-mapping', 'specific');
-  s.setAttribute('data-term', terme);
-  s.setAttribute('data-strict', '0');
-  s.setAttribute('data-reactions-enabled', '1');
-  s.setAttribute('data-emit-metadata', '0');
-  s.setAttribute('data-input-position', 'top');
-  s.setAttribute('data-theme', 'light');
-  s.setAttribute('data-lang', 'fr');
-  s.setAttribute('crossorigin', 'anonymous');
-  s.async = true;
-  container.appendChild(s);
-}
-
-// au chargement de la page
-chargerGiscus();
-
-// et à chaque fois qu'on change d'article (le # change)
-window.addEventListener('hashchange', chargerGiscus);
-</script>
-</section>
-  
   /* ============ RESPONSIVE ============ */
   @media(max-width:900px){
     .feature{grid-template-columns:1fr;gap:24px;}
@@ -286,6 +266,7 @@ window.addEventListener('hashchange', chargerGiscus);
     .masthead{padding:30px 0 14px;}
     .art-body p:first-of-type::first-letter{font-size:3.4rem;}
     .topdate{display:none;}
+    .contact{padding:32px 22px;}
   }
 </style>
 </head>
@@ -317,6 +298,21 @@ window.addEventListener('hashchange', chargerGiscus);
     <div class="sec-label">Tous les textes</div>
     <div class="filters" id="filters"></div>
     <main class="grid" id="grid" style="margin-top:26px;"></main>
+
+    <!-- ===== CONTACT (page d'accueil) ===== -->
+    <section class="contact" id="contact">
+      <h2>Me contacter</h2>
+      <p class="ct-intro">Une réaction, un désaccord, une vérité à ajouter ? Écris-moi.</p>
+      <form action="https://formspree.io/f/maqzejgy" method="POST">
+        <label>Ton nom (optionnel)</label>
+        <input type="text" name="nom">
+        <label>Ton email (pour que je puisse te répondre)</label>
+        <input type="email" name="email" required>
+        <label>Ton message</label>
+        <textarea name="message" rows="5" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
   </div>
 
   <footer class="site">
@@ -400,6 +396,29 @@ window.addEventListener('hashchange', chargerGiscus);
     });
   }
 
+  function chargerGiscus(terme){
+    const container=document.getElementById("giscus-container");
+    if(!container)return;
+    container.innerHTML="";
+    const s=document.createElement("script");
+    s.src="https://giscus.app/client.js";
+    s.setAttribute("data-repo","lilThings3D/tete-vide");
+    s.setAttribute("data-repo-id","R_kgDOSwNDcw");
+    s.setAttribute("data-category","Announcements");
+    s.setAttribute("data-category-id","DIC_kwDOSwNDc84C-rcL");
+    s.setAttribute("data-mapping","specific");
+    s.setAttribute("data-term",terme);
+    s.setAttribute("data-strict","0");
+    s.setAttribute("data-reactions-enabled","1");
+    s.setAttribute("data-emit-metadata","0");
+    s.setAttribute("data-input-position","top");
+    s.setAttribute("data-theme","light");
+    s.setAttribute("data-lang","fr");
+    s.setAttribute("crossorigin","anonymous");
+    s.async=true;
+    container.appendChild(s);
+  }
+
   function openArticle(id){
     const a=ARTICLES.find(x=>x.id===id);
     if(!a)return;
@@ -415,6 +434,13 @@ window.addEventListener('hashchange', chargerGiscus);
       <div class="art-rule"></div>
       <div class="art-body">${a.corps}</div>
       <div class="art-foot"><div class="sig">A.</div></div>
+
+      <section class="comments">
+        <h2>Réactions</h2>
+        <p class="c-intro">Connecte-toi en un clic avec un compte GitHub pour réagir.</p>
+        <div id="giscus-container"></div>
+      </section>
+
       <div class="more-link" onclick="openArticle('${next.id}')">Lire ensuite : « ${next.titre} » →</div>
     `;
     document.getElementById("article-content").innerHTML=html;
@@ -422,6 +448,7 @@ window.addEventListener('hashchange', chargerGiscus);
     document.getElementById("article").classList.add("on");
     window.scrollTo(0,0);
     history.pushState({id},"","#"+a.id);
+    chargerGiscus(a.id);
   }
 
   function goHome(){
@@ -443,68 +470,6 @@ window.addEventListener('hashchange', chargerGiscus);
   const initialHash=location.hash.replace("#","");
   if(initialHash && ARTICLES.find(a=>a.id===initialHash)){openArticle(initialHash);}
 </script>
-  <!-- ===== SECTION CONTACT ===== -->
-<section id="contact" style="
-  max-width: 600px;
-  margin: 80px auto 60px;
-  padding: 40px 32px;
-  background: #fdf6ec;
-  border: 1px solid #e8ddc9;
-  border-radius: 12px;
-  font-family: 'Spectral', serif;
-">
-  <h2 style="
-    font-family: 'Fraunces', serif;
-    font-size: 1.9rem;
-    color: #c75b1e;
-    margin: 0 0 8px;
-  ">Me contacter</h2>
 
-  <p style="color: #6b5d4a; margin: 0 0 28px; line-height: 1.5;">
-    Une réaction, un désaccord, une vérité à ajouter ? Écris-moi.
-  </p>
-
-  <form action="https://formspree.io/f/maqzejgy" method="POST">
-    <label style="display:block; margin-bottom:6px; color:#4a4031; font-size:0.95rem;">
-      Ton nom (optionnel)
-    </label>
-    <input type="text" name="nom" style="
-      width:100%; padding:12px; margin-bottom:18px;
-      border:1px solid #d8c9ad; border-radius:8px;
-      background:#fffdf8; font-family:'Spectral',serif; font-size:1rem;
-      box-sizing:border-box;
-    ">
-
-    <label style="display:block; margin-bottom:6px; color:#4a4031; font-size:0.95rem;">
-      Ton email (pour que je puisse te répondre)
-    </label>
-    <input type="email" name="email" required style="
-      width:100%; padding:12px; margin-bottom:18px;
-      border:1px solid #d8c9ad; border-radius:8px;
-      background:#fffdf8; font-family:'Spectral',serif; font-size:1rem;
-      box-sizing:border-box;
-    ">
-
-    <label style="display:block; margin-bottom:6px; color:#4a4031; font-size:0.95rem;">
-      Ton message
-    </label>
-    <textarea name="message" rows="5" required style="
-      width:100%; padding:12px; margin-bottom:22px;
-      border:1px solid #d8c9ad; border-radius:8px;
-      background:#fffdf8; font-family:'Spectral',serif; font-size:1rem;
-      resize:vertical; box-sizing:border-box;
-    "></textarea>
-
-    <button type="submit" style="
-      background:#c75b1e; color:#fff; border:none;
-      padding:13px 32px; border-radius:8px;
-      font-family:'Fraunces',serif; font-size:1rem;
-      cursor:pointer; transition:background 0.2s;
-    " onmouseover="this.style.background='#a8480f'"
-      onmouseout="this.style.background='#c75b1e'">
-      Envoyer
-    </button>
-  </form>
-</section>
 </body>
 </html>
