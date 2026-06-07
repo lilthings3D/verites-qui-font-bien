@@ -36,7 +36,8 @@ const ARTICLES = [
  
 <p>Les trois mâchoires se referment ensemble. Mon bien contre celui de la planète. Mon effort qui ne pèse rien. Et l'impossibilité de savoir, au fond, où est le bien. Aucune des trois ne se résout sans buter sur les deux autres. C'est un nœud et on ne le dénoue pas en tirant sur un fil.</p>
  
-<p>Je n'ai pas de sortie à proposer, et je me méfie de ceux qui en vendent. Dire « fais ta part, ça suffit » serait mentir sur l'échelle du problème. Dire « tout est foutu, profite » serait mentir sur ce qui compte. En réalité, personne ne sait où va l'humanité — alors comment garder le cap ?</p>`
+<p>Je n'ai pas de sortie à proposer, et je me méfie de ceux qui en vendent. Dire « fais ta part, ça suffit » serait mentir sur l'échelle du problème. Dire « tout est foutu, profite » serait mentir sur ce qui compte. En réalité, personne ne sait où va l'humanité — alors comment garder le cap ?</p>`,
+    brouillon: true
   },
   {
     id: "conseils-viennent-de-toi",
@@ -55,7 +56,8 @@ const ARTICLES = [
 
 <p>C'est pour ça qu'on peut voir un proche foncer droit dans le mur, lui dire exactement la chose juste, et le regarder continuer sa route. Ça rend dingue. Mais il n'a pas mal compris. C'est juste que comprendre dans sa tête et basculer dans tout son corps, ce sont deux choses qui n'ont rien à voir. La première ne déclenche pas la seconde. La bascule ne se commande pas du dehors.</p>
 
-<p>Alors à quoi servent les conseils, si on ne peut pas les implanter ? À planter des graines, justement. Pas à provoquer le changement, mais à le préparer. On te dit une phrase, elle ne te fait rien sur le moment, elle se range quelque part et elle dort. Parfois des années. Et un jour ta propre vie vient la cogner, et là tu te dis « Oh, je vois». Ce jour-là, le conseil ne vient plus de l'autre. Il est devenu le tien. Et c'est seulement là, une fois qu'il vient de toi, qu'il se met enfin à agir.</p>`
+<p>Alors à quoi servent les conseils, si on ne peut pas les implanter ? À planter des graines, justement. Pas à provoquer le changement, mais à le préparer. On te dit une phrase, elle ne te fait rien sur le moment, elle se range quelque part et elle dort. Parfois des années. Et un jour ta propre vie vient la cogner, et là tu te dis « Oh, je vois». Ce jour-là, le conseil ne vient plus de l'autre. Il est devenu le tien. Et c'est seulement là, une fois qu'il vient de toi, qu'il se met enfin à agir.</p>`,
+    brouillon: true
   },
   {
     id: "etre-moi-etre-quelquun",
@@ -72,7 +74,8 @@ const ARTICLES = [
 
 <p>Je me suis écrit autre chose, ailleurs, qui répond pile à ça : tu as basé ton amour-propre sur le fait d'être exceptionnel, mais c'est inatteignable, mon pote. Je suis comme tout le monde, et c'est super en fait. Ni mieux ni moins bien que quiconque. Je crois que c'est exactement le remède. Lâcher l'idée d'être quelqu'un de spécial, ce n'est pas se résigner. C'est libérer la place pour être enfin soi-même.</p>
 
-<p>Et il y a un truc marrant là-dedans : on n'est jamais aussi unique que quand on arrête d'essayer de l'être. Le personnage qu'on se fabrique, il ressemble toujours à d'autres personnages — c'est du déjà-vu. Alors que toi, le vrai, t'as pas d'équivalent. À condition d'arrêter de te maquiller pour ressembler à l'idée que tu te fais de quelqu'un de bien.</p>`
+<p>Et il y a un truc marrant là-dedans : on n'est jamais aussi unique que quand on arrête d'essayer de l'être. Le personnage qu'on se fabrique, il ressemble toujours à d'autres personnages — c'est du déjà-vu. Alors que toi, le vrai, t'as pas d'équivalent. À condition d'arrêter de te maquiller pour ressembler à l'idée que tu te fais de quelqu'un de bien.</p>`,
+    brouillon: true
   },
   {
     id: "vis-rouillee-echelle",
@@ -87,7 +90,8 @@ const ARTICLES = [
 
 <p>Et je crois que c'est vrai pour presque tout. Les choses ne valent pas en elles-mêmes ; elles valent par rapport à ce qu'elles tiennent. Un verre d'eau ne vaut rien jusqu'au moment où tu meurs de soif. Une personne ne te manque pas jusqu'au jour où elle n'est plus là. On passe notre temps à mépriser des vis rouillées, en attendant le jour où on se retrouvera en équilibre dessus.</p>
 
-<p>Alors peut-être que la sagesse, ce serait de regarder les vis avant d'être à trois mètres du sol. De donner aux choses leur juste poids pendant qu'on a encore les deux pieds par terre, au lieu d'attendre le vertige pour comprendre ce qui nous tenait.</p>`
+<p>Alors peut-être que la sagesse, ce serait de regarder les vis avant d'être à trois mètres du sol. De donner aux choses leur juste poids pendant qu'on a encore les deux pieds par terre, au lieu d'attendre le vertige pour comprendre ce qui nous tenait.</p>`,
+    brouillon: true
   },
   {
     id: "vivre-vieux-grand-mere",
@@ -102,7 +106,8 @@ const ARTICLES = [
 
 <p>Je ne dis pas ça pour trancher. Je n'ai pas de réponse, et je me méfie des gens qui en ont une toute prête sur ce sujet. Les philosophes parlent depuis longtemps de la différence entre vivre et exister — entre le simple fait de respirer et le fait d'avoir une vie qui a encore un goût, une direction, des gens. Quand le deuxième s'efface, est-ce qu'on tient encore à la personne, ou juste à l'idée qu'on se fait d'elle ?</p>
 
-<p>Ce que je retiens, c'est surtout que cette question, on préfère ne pas la regarder. On vénère la longévité sans jamais demander : longévité de quoi ? Ma grand-mère, elle, l'a posée à ma place, sans drame, presque en passant. Et je crois que c'est ça qui m'a remué. Pas la peur de la mort. La question, beaucoup plus dérangeante, de ce qui fait qu'une vie reste une vie.</p>`
+<p>Ce que je retiens, c'est surtout que cette question, on préfère ne pas la regarder. On vénère la longévité sans jamais demander : longévité de quoi ? Ma grand-mère, elle, l'a posée à ma place, sans drame, presque en passant. Et je crois que c'est ça qui m'a remué. Pas la peur de la mort. La question, beaucoup plus dérangeante, de ce qui fait qu'une vie reste une vie.</p>`,
+    brouillon: true
   },
   {
     id: "exceptionnel-comme-tout-le-monde",
@@ -119,7 +124,8 @@ const ARTICLES = [
 
 <p>Les psys ont un nom pour ça : l'estime de soi conditionnelle. C'est quand tu ne t'autorises à te respecter qu'à condition de performer, de réussir, d'être au-dessus. Et c'est un piège, parce que le moindre jour sans, la moindre baisse de régime, devient aussitôt la preuve que tu vaux rien. À l'inverse, il y a un truc tout bête mais difficile : te parler comme tu parlerais à un pote qui galère. Sans te mentir, mais sans te démolir non plus.</p>
 
-<p>« Je suis comme tout le monde et c'est super. » Au début je croyais que c'était une façon d'abandonner, de se résigner. C'est exactement l'inverse. C'est ce qui te permet enfin de poser le sac que tu trimballes et de marcher. L'avenir, de toute façon, il va arriver, que tu flippes ou pas. Alors autant le laisser venir sans le craindre. A.</p>`
+<p>« Je suis comme tout le monde et c'est super. » Au début je croyais que c'était une façon d'abandonner, de se résigner. C'est exactement l'inverse. C'est ce qui te permet enfin de poser le sac que tu trimballes et de marcher. L'avenir, de toute façon, il va arriver, que tu flippes ou pas. Alors autant le laisser venir sans le craindre. A.</p>`,
+    brouillon: true
   },
   {
     id: "colere-cest-la-peur",
@@ -136,7 +142,8 @@ const ARTICLES = [
 
 <p>Y a des thérapeutes qui appellent ça une émotion secondaire : une réaction qui en planque une autre, plus dure à regarder en face — la peur, la honte, le sentiment d'être menacé ou laissé de côté. La colère est presque jamais le vrai problème. C'est juste la couche du dessus.</p>
 
-<p>Et ça change tout, concrètement. La prochaine fois que ça monte, au lieu de foncer dedans ou de te forcer à ravaler, tu peux te poser une seule question : de quoi j'ai peur, là, maintenant ? La plupart du temps une réponse arrive, et rien que de l'avoir nommée, ça dégonfle le truc. Parce qu'on ne raisonne pas avec sa colère. Mais on peut écouter la peur qui se cache en dessous.</p>`
+<p>Et ça change tout, concrètement. La prochaine fois que ça monte, au lieu de foncer dedans ou de te forcer à ravaler, tu peux te poser une seule question : de quoi j'ai peur, là, maintenant ? La plupart du temps une réponse arrive, et rien que de l'avoir nommée, ça dégonfle le truc. Parce qu'on ne raisonne pas avec sa colère. Mais on peut écouter la peur qui se cache en dessous.</p>`,
+    brouillon: true
   },
   {
     id: "pensee-tas-de-sable",
@@ -151,7 +158,8 @@ const ARTICLES = [
 
 <p>Les scientifiques ont un mot pour ce délai : la consolidation. En gros, t'apprends pas au moment où tu reçois l'info, mais après, quand ton cerveau la réorganise tranquillement et la branche sur ce que tu savais déjà. C'est pour ça que dormir compte autant, et c'est pour ça que bachoter la veille marche si mal : tu balances du sable au sommet du pic sans jamais laisser le tas s'étaler.</p>
 
-<p>Mais c'est la deuxième partie de l'image que je préfère : plus le tas est large, plus il avale. Autrement dit, plus tu en sais déjà, plus tu apprends vite — parce que chaque nouvelle info trouve tout de suite où s'accrocher. Le savoir, c'est pas un sac qui se remplit jusqu'à être plein. C'est une base qui s'élargit et qui rend tout le reste plus facile à attraper ensuite. Ce qui est, quand on y pense, la meilleure raison du monde pour ne jamais s'arrêter d'en verser.</p>`
+<p>Mais c'est la deuxième partie de l'image que je préfère : plus le tas est large, plus il avale. Autrement dit, plus tu en sais déjà, plus tu apprends vite — parce que chaque nouvelle info trouve tout de suite où s'accrocher. Le savoir, c'est pas un sac qui se remplit jusqu'à être plein. C'est une base qui s'élargit et qui rend tout le reste plus facile à attraper ensuite. Ce qui est, quand on y pense, la meilleure raison du monde pour ne jamais s'arrêter d'en verser.</p>`,
+    brouillon: true
   },
   {
     id: "pubs-trucs-inutiles",
@@ -166,7 +174,8 @@ const ARTICLES = [
 
 <p>Ce qui me fait vraiment tourner la tête, c'est pas tellement de dénoncer. C'est le vertige. Parce que si une bonne partie de l'activité consiste à se refiler mutuellement des trucs inutiles, alors « utile » et « payé », c'est carrément pas la même chose. Tu peux gagner un max en produisant zéro valeur réelle, et tu peux te crever à en produire des tonnes pour trois fois rien. Le prix mesure pas l'utilité. Il mesure autre chose — la rareté, le désir, la capacité à capter ton attention.</p>
 
-<p>J'ai pas de réponse propre à « c'est quoi qui est utile ». Mais rien que de se poser la question, ça déplace un truc. Avant d'acheter, avant même d'avoir envie, te demander : est-ce que j'en ai besoin, ou est-ce qu'on m'a appris à le vouloir ? La plupart du temps, juste en posant la question, l'envie retombe toute seule. C'est peut-être ça, la première forme de liberté quand on vit entouré de pubs.</p>`
+<p>J'ai pas de réponse propre à « c'est quoi qui est utile ». Mais rien que de se poser la question, ça déplace un truc. Avant d'acheter, avant même d'avoir envie, te demander : est-ce que j'en ai besoin, ou est-ce qu'on m'a appris à le vouloir ? La plupart du temps, juste en posant la question, l'envie retombe toute seule. C'est peut-être ça, la première forme de liberté quand on vit entouré de pubs.</p>`,
+    brouillon: true
   },
   {
     id: "boire-tout-le-temps",
@@ -181,7 +190,8 @@ const ARTICLES = [
 
 <p>Et je crois que c'est un problème bien plus large que l'alcool. Dès que tout devient accessible et pas cher, le frein passe du dehors au dedans. Avant, t'avais pas à te demander si tu te restreignais : la contrainte matérielle le faisait pour toi. Maintenant, la seule limite, c'est celle que tu te mets. Et personne nous a entraînés à ça.</p>
 
-<p>Je sais pas si l'abondance nous rend plus libres, ou si elle nous laisse juste seuls face à nos excès. Sûrement les deux. Mais un truc me paraît clair : dans un monde où tout est à portée de main, savoir se dire non à soi-même est devenu une compétence aussi vitale que savoir gagner sa vie l'était pour nos grands-parents. Le luxe de l'abondance, c'est aussi son piège.</p>`
+<p>Je sais pas si l'abondance nous rend plus libres, ou si elle nous laisse juste seuls face à nos excès. Sûrement les deux. Mais un truc me paraît clair : dans un monde où tout est à portée de main, savoir se dire non à soi-même est devenu une compétence aussi vitale que savoir gagner sa vie l'était pour nos grands-parents. Le luxe de l'abondance, c'est aussi son piège.</p>`,
+    brouillon: true
   },
   {
     id: "vide-pas-le-remplir",
@@ -198,7 +208,8 @@ const ARTICLES = [
 
 <p>Reconnaître son vide sans se jeter dessus pour le boucher, c'est déjà énorme. Ça veut dire qu'on accepte de le regarder au lieu de fuir. Et un vide qu'on regarde finit souvent par dire ce qu'il réclame vraiment — qui est presque jamais ce qu'on était sur le point d'y verser.</p>
 
-<p style="font-size:0.85em;opacity:0.7;margin-top:2em;">Ce texte parle d'un sujet sensible. Si le rapport à l'alcool ou à un mal-être devient dur à porter, en parler à un médecin ou à un proche de confiance peut vraiment aider.</p>`
+<p style="font-size:0.85em;opacity:0.7;margin-top:2em;">Ce texte parle d'un sujet sensible. Si le rapport à l'alcool ou à un mal-être devient dur à porter, en parler à un médecin ou à un proche de confiance peut vraiment aider.</p>`,
+    brouillon: true
   },
   {
     id: "tout-possible-donc-rien",
@@ -215,7 +226,8 @@ const ARTICLES = [
 
 <p>Et y a une part de fantasme bien confortable là-dedans. Tant que j'ai rien choisi, je peux continuer à me croire potentiellement tout : futur écrivain, futur voyageur, futur n'importe quoi. Choisir, c'est accepter de devenir une chose précise, donc finie, donc qui peut rater. Le possible, ça me protège de l'épreuve du réel. C'est douillet, et c'est stérile.</p>
 
-<p>Le remède, c'est pas de trouver la porte parfaite — elle existe pas. C'est d'accepter qu'avancer dans une direction imparfaite vaut mieux que rester immobile devant la perfection imaginaire. Une décision moyenne suivie d'action bat une décision idéale qui vient jamais. Le mouvement, même approximatif, c'est ce qui transforme le possible en réel. Le reste, c'est juste du sur-place déguisé en patience.</p>`
+<p>Le remède, c'est pas de trouver la porte parfaite — elle existe pas. C'est d'accepter qu'avancer dans une direction imparfaite vaut mieux que rester immobile devant la perfection imaginaire. Une décision moyenne suivie d'action bat une décision idéale qui vient jamais. Le mouvement, même approximatif, c'est ce qui transforme le possible en réel. Le reste, c'est juste du sur-place déguisé en patience.</p>`,
+    brouillon: true
   },
   {
     id: "conscience-universelle",
@@ -230,7 +242,8 @@ const ARTICLES = [
 
 <p>Ce n'est pas une idée neuve, au fond — des mystiques, des philosophes, certaines traditions parlent depuis longtemps d'une conscience unique qui se prend pour plusieurs. L'idée que la séparation entre les êtres serait une illusion, et que ce qui se vit là-bas, chez l'autre, se vit en réalité en toi. Mais ce qui m'intéresse, c'est de le raconter. Un personnage qui serait l'humanité. Un type, un seul, qui contiendrait toutes les voix.</p>
 
-<p>Parce que si c'était vrai, ça changerait tout dans la façon de regarder l'autre. Le mec en face de toi ne serait pas un étranger, ce serait une autre partie de toi en train de vivre un autre morceau de l'expérience. Faire le mal à quelqu'un, ce serait se le faire à soi. Sa douleur serait la tienne, en différé. Je trouve que c'est une fiction qui mérite d'être écrite — ne serait-ce que pour voir l'effet que ça fait de regarder le monde comme ça, ne serait-ce que cinq minutes.</p>`
+<p>Parce que si c'était vrai, ça changerait tout dans la façon de regarder l'autre. Le mec en face de toi ne serait pas un étranger, ce serait une autre partie de toi en train de vivre un autre morceau de l'expérience. Faire le mal à quelqu'un, ce serait se le faire à soi. Sa douleur serait la tienne, en différé. Je trouve que c'est une fiction qui mérite d'être écrite — ne serait-ce que pour voir l'effet que ça fait de regarder le monde comme ça, ne serait-ce que cinq minutes.</p>`,
+    brouillon: true
   },
   {
     id: "tous-artisans",
@@ -245,7 +258,8 @@ const ARTICLES = [
 
 <p>Sauf que là, l'idée se mord la queue. Si tous les jeunes sont artisans en même temps, on se retrouve avec une armée d'artisans qui fabriquent des choses dont plus personne n'a besoin, parce que tout le monde sait déjà les faire. L'artisanat tire sa valeur de sa rareté, du fait que certains savent et d'autres pas. Le généraliser, c'est le vider de son sens. Je tombe sur le même mur à chaque fois.</p>
 
-<p>Alors je reste avec ça : une intuition que je trouve belle, et une logique qui la défait. Peut-être que la solution n'est pas que tout le monde fasse pareil au même moment, mais qu'on cesse de mépriser la main au profit de la tête. Peut-être que le problème n'est pas dans le métier, mais dans la hiérarchie qu'on plaque dessus. Je ne sais pas. C'est une de ces idées que je préfère laisser ouverte plutôt que de la forcer à une conclusion.</p>`
+<p>Alors je reste avec ça : une intuition que je trouve belle, et une logique qui la défait. Peut-être que la solution n'est pas que tout le monde fasse pareil au même moment, mais qu'on cesse de mépriser la main au profit de la tête. Peut-être que le problème n'est pas dans le métier, mais dans la hiérarchie qu'on plaque dessus. Je ne sais pas. C'est une de ces idées que je préfère laisser ouverte plutôt que de la forcer à une conclusion.</p>`,
+    brouillon: true
   },
   {
     id: "se-disputer-avant-de-partir",
@@ -260,7 +274,8 @@ const ARTICLES = [
 
 <p>Les gens qui étudient le deuil et l'attachement décrivent quelque chose qui ressemble à ça : une façon de se détacher par anticipation, de commencer à faire le vide avant que le vide nous soit imposé. Ce n'est pas forcément conscient. Ça passe par une dispute idiote, un agacement qui sort de nulle part, une froideur qu'on ne s'explique pas. On croit en vouloir à l'autre. En vrai, on se protège.</p>
 
-<p>Ce qui me touche, c'est que c'est une forme d'amour à l'envers. On s'éloigne parce qu'on tient trop. La dispute n'est pas le signe qu'on s'en fiche, c'est le signe inverse — qu'on n'est pas prêt à perdre, et qu'on cherche maladroitement à amortir le choc. Savoir ça, ça donne envie de faire le contraire : se rapprocher exprès, juste avant. Quitte à ce que ça fasse plus mal après.</p>`
+<p>Ce qui me touche, c'est que c'est une forme d'amour à l'envers. On s'éloigne parce qu'on tient trop. La dispute n'est pas le signe qu'on s'en fiche, c'est le signe inverse — qu'on n'est pas prêt à perdre, et qu'on cherche maladroitement à amortir le choc. Savoir ça, ça donne envie de faire le contraire : se rapprocher exprès, juste avant. Quitte à ce que ça fasse plus mal après.</p>`,
+    brouillon: true
   },
   {
     id: "agrandir-son-cercle",
@@ -275,7 +290,8 @@ const ARTICLES = [
 
 <p>Et je trouve que ça décrit bien la vie. Au début, tout progresse vite : tes premiers amis, tes premières compétences, tes premiers clients. Chaque pas se voit. Puis ça ralentit. Pas parce que tu fais moins d'efforts, mais parce que le même effort produit, en proportion, beaucoup moins. Tu rames autant pour avancer de moins en moins. C'est démoralisant si tu ne comprends pas ce qui se passe.</p>
 
-<p>Mais une fois que tu l'as compris, ça déculpabilise. Si tu as l'impression de stagner alors que tu travailles plus que jamais, ce n'est peut-être pas que tu es nul. C'est peut-être juste que tu es déjà loin du centre, et qu'à cette distance, agrandir le cercle d'un cran demande un travail qui ne se voit pas. Le ralentissement n'est pas un échec. C'est le prix de la taille.</p>`
+<p>Mais une fois que tu l'as compris, ça déculpabilise. Si tu as l'impression de stagner alors que tu travailles plus que jamais, ce n'est peut-être pas que tu es nul. C'est peut-être juste que tu es déjà loin du centre, et qu'à cette distance, agrandir le cercle d'un cran demande un travail qui ne se voit pas. Le ralentissement n'est pas un échec. C'est le prix de la taille.</p>`,
+    brouillon: true
   },
   {
     id: "creer-ses-demons",
@@ -290,7 +306,8 @@ const ARTICLES = [
 
 <p>Je sais que c'est en partie une illusion. On ne crée pas vraiment sa pauvreté tout seul ; il y a le monde, les circonstances, l'injustice, le hasard. Personne ne choisit entièrement son point de départ. Mais à l'intérieur de ce qui dépend de moi, l'idée tient. Plutôt que d'attendre un sauveur, je peux décider de devenir, peu à peu, celui qui sauve. Fabriquer le personnage qui me sortira de là.</p>
 
-<p>C'est vertigineux parce que ça enlève l'excuse. Tant que les démons venaient de l'extérieur, je pouvais attendre qu'ils s'en aillent tout seuls. S'ils viennent de moi, l'attente n'a plus de sens — il faut créer le combattant. Et bizarrement, ça me donne plus d'énergie que de réconfort. C'est moins doux, mais c'est plus vrai.</p>`
+<p>C'est vertigineux parce que ça enlève l'excuse. Tant que les démons venaient de l'extérieur, je pouvais attendre qu'ils s'en aillent tout seuls. S'ils viennent de moi, l'attente n'a plus de sens — il faut créer le combattant. Et bizarrement, ça me donne plus d'énergie que de réconfort. C'est moins doux, mais c'est plus vrai.</p>`,
+    brouillon: true
   },
   {
     id: "penser-a-sa-retraite",
@@ -305,7 +322,8 @@ const ARTICLES = [
 
 <p>Ce n'est pas qu'on soit incapables de différer une récompense. C'est qu'on n'arrive plus à croire à la récompense elle-même. Pourquoi sacrifier le présent pour un futur qu'on imagine annulé ? La fameuse capacité à attendre, à investir dans le long terme, repose sur une confiance dans le lendemain qui, pour toute une partie d'entre nous, s'est éteinte.</p>
 
-<p>Je n'ai pas la solution. Mais je me dis qu'au lieu de répéter aux jeunes qu'ils sont imprévoyants, il faudrait peut-être entendre ce que cette imprévoyance raconte : une perte de foi dans l'avenir. On ne répare pas ça avec un tableau Excel. On le répare en redonnant aux gens des raisons de croire qu'il y aura un après — et ça, c'est un chantier autrement plus grand qu'un plan d'épargne.</p>`
+<p>Je n'ai pas la solution. Mais je me dis qu'au lieu de répéter aux jeunes qu'ils sont imprévoyants, il faudrait peut-être entendre ce que cette imprévoyance raconte : une perte de foi dans l'avenir. On ne répare pas ça avec un tableau Excel. On le répare en redonnant aux gens des raisons de croire qu'il y aura un après — et ça, c'est un chantier autrement plus grand qu'un plan d'épargne.</p>`,
+    brouillon: true
   },
   {
     id: "pas-assez-intelligents-pour-le-mal",
@@ -320,7 +338,8 @@ const ARTICLES = [
 
 <p>Des penseurs ont décrit quelque chose de cet ordre — l'idée que le pire ne vient pas toujours de la cruauté, mais de l'irréflexion, de l'absence de recul, de gens ordinaires qui ne pensent pas jusqu'au bout de ce qu'ils font. Ce n'est pas rassurant, parce que ça veut dire que n'importe qui peut y participer. Mais c'est plus juste, je crois, que l'histoire commode des bons contre les méchants.</p>
 
-<p>Et si c'est vrai, la conclusion est intéressante : la lutte contre le mal serait moins une affaire de morale que de lucidité. Moins « sois quelqu'un de bien » que « regarde plus loin que le bout de ton geste ». Faire l'effort, à chaque fois, d'imaginer où va ce qu'on fait. C'est épuisant, et on n'y arrivera jamais complètement. Mais c'est peut-être la seule vraie façon de faire un peu moins de dégâts.</p>`
+<p>Et si c'est vrai, la conclusion est intéressante : la lutte contre le mal serait moins une affaire de morale que de lucidité. Moins « sois quelqu'un de bien » que « regarde plus loin que le bout de ton geste ». Faire l'effort, à chaque fois, d'imaginer où va ce qu'on fait. C'est épuisant, et on n'y arrivera jamais complètement. Mais c'est peut-être la seule vraie façon de faire un peu moins de dégâts.</p>`,
+    brouillon: true
   },
   {
     id: "esperer-apocalypse",
@@ -337,7 +356,8 @@ const ARTICLES = [
 
 <p>Le souci, c'est ce que ce fantasme nous dispense de faire. Si je crois en douce que tout va bientôt s'arrêter, à quoi bon construire ? À quoi bon m'engager, planter un arbre, tenir une promesse ? L'attente de la catastrophe, c'est l'excuse parfaite pour rien entreprendre. Elle transforme la résignation en lucidité. Elle te fait passer ta paresse pour de la clairvoyance.</p>
 
-<p>Je crois qu'il faut débusquer ce désir en soi pour s'en libérer. Pas le nier — le regarder, et voir ce qu'il cache : une envie de changement qu'on n'ose pas porter, et qu'on refile lâchement à la fin du monde. Or les cartes, on peut les rebattre soi-même. C'est plus lent, plus modeste, ça fait moins de cinéma. Mais c'est infiniment plus courageux que d'attendre que tout brûle.</p>`
+<p>Je crois qu'il faut débusquer ce désir en soi pour s'en libérer. Pas le nier — le regarder, et voir ce qu'il cache : une envie de changement qu'on n'ose pas porter, et qu'on refile lâchement à la fin du monde. Or les cartes, on peut les rebattre soi-même. C'est plus lent, plus modeste, ça fait moins de cinéma. Mais c'est infiniment plus courageux que d'attendre que tout brûle.</p>`,
+    brouillon: true
   },
   {
     id: "immortel-logique",
@@ -352,7 +372,8 @@ const ARTICLES = [
 
 <p>L'argument a ses failles, évidemment. On peut redouter pas l'état d'être mort, mais le fait de cesser, de perdre ceux qu'on aime, de laisser des trucs inachevés. Épicure répond à une peur précise — celle de souffrir dans la mort — pas à toutes. Mais sur ce point-là, sa logique tient : y a personne, dans la mort, pour en souffrir.</p>
 
-<p>Ce que je retiens, c'est moins la conclusion que le déplacement qu'elle provoque. Si la mort, en tant que telle, sera jamais une expérience que je vivrai, alors la seule chose qui m'appartient vraiment, c'est le temps où je suis. Toute l'inquiétude que je place dans l'après, c'est de l'attention que je vole au présent. L'immortalité dont je parle est dérisoire, je sais. Mais elle pointe vers un truc juste : on n'a que le vivant. Autant l'habiter pour de bon.</p>`
+<p>Ce que je retiens, c'est moins la conclusion que le déplacement qu'elle provoque. Si la mort, en tant que telle, sera jamais une expérience que je vivrai, alors la seule chose qui m'appartient vraiment, c'est le temps où je suis. Toute l'inquiétude que je place dans l'après, c'est de l'attention que je vole au présent. L'immortalité dont je parle est dérisoire, je sais. Mais elle pointe vers un truc juste : on n'a que le vivant. Autant l'habiter pour de bon.</p>`,
+    brouillon: true
   },
   {
     id: "carapace-conversations",
@@ -367,7 +388,8 @@ const ARTICLES = [
 
 <p>Des chercheurs en communication ont décrit ça, ils appellent ça la pénétration sociale. Une relation se construit par couches, comme un oignon. On commence par le superficiel — les goûts, les faits — et on accède aux couches profondes — les peurs, les doutes, l'intime — seulement à mesure que la confiance le permet. Brûler les étapes, ça met l'autre mal à l'aise ; ne jamais les franchir, ça maintient toutes tes relations en surface.</p>
 
-<p>Ce qui me touche là-dedans, c'est que c'est universel. Même les gens qui paraissent les plus ouverts ont leur carapace — ils l'ouvrent juste plus vite. Personne se livre d'emblée. Et savoir ça change la façon d'aborder les autres : au lieu de s'agacer du sas, on peut le traverser avec patience, en comprenant qu'il protège quelque chose de précieux. Le fond est là, derrière. Il attend juste qu'on prouve qu'on est digne d'y entrer.</p>`
+<p>Ce qui me touche là-dedans, c'est que c'est universel. Même les gens qui paraissent les plus ouverts ont leur carapace — ils l'ouvrent juste plus vite. Personne se livre d'emblée. Et savoir ça change la façon d'aborder les autres : au lieu de s'agacer du sas, on peut le traverser avec patience, en comprenant qu'il protège quelque chose de précieux. Le fond est là, derrière. Il attend juste qu'on prouve qu'on est digne d'y entrer.</p>`,
+    brouillon: true
   },
   {
     id: "voyager-tout-sur-internet",
@@ -384,7 +406,8 @@ const ARTICLES = [
 
 <p>Et y a autre chose, peut-être l'essentiel. Le voyage te montre pas juste un lieu : il te déplace, toi. Il te sort de tes repères, te confronte à d'autres façons de vivre, et te renvoie une image de toi que t'aurais jamais vue de chez toi. On ne revient jamais tout à fait le même. Aucune vidéo, même parfaite, te transforme — parce que tu restes assis, intact, derrière la vitre.</p>
 
-<p>Internet a rendu le monde visible. Il l'a pas rendu vécu. Et c'est encore le vivre, pas le voir, qui fait toute la différence.</p>`
+<p>Internet a rendu le monde visible. Il l'a pas rendu vécu. Et c'est encore le vivre, pas le voir, qui fait toute la différence.</p>`,
+    brouillon: true
   },
   {
     id: "stabilite-en-soi",
@@ -401,7 +424,8 @@ const ARTICLES = [
 
 <p>C'est une nuance subtile mais elle change tout, et je l'avais notée comme ça : accepter l'amour des gens sans pour autant en dépendre. Pas se fermer, pas se durcir — recevoir à fond ce qu'on te donne — mais garder ailleurs, en toi, ton centre de gravité. Comme un arbre dont les branches s'ouvrent au vent mais dont les racines, elles, tiennent dans sa propre terre.</p>
 
-<p>Et le plus beau, je l'avais écrit aussi : chacun est libre, et parfois ils choisissent de rester à tes côtés. Justement parce que tu les retiens pas par besoin, leur présence devient un choix — donc un vrai cadeau. La stabilité intérieure t'isole pas des autres. C'est exactement ce qui rend l'amour possible sans qu'il te détruise.</p>`
+<p>Et le plus beau, je l'avais écrit aussi : chacun est libre, et parfois ils choisissent de rester à tes côtés. Justement parce que tu les retiens pas par besoin, leur présence devient un choix — donc un vrai cadeau. La stabilité intérieure t'isole pas des autres. C'est exactement ce qui rend l'amour possible sans qu'il te détruise.</p>`,
+    brouillon: true
   },
   {
     id: "changer-idoles",
@@ -418,7 +442,8 @@ const ARTICLES = [
 
 <p>Or rien ne prouve que la souffrance soit la cause de la grandeur. Elle l'accompagne parfois, mais elle en est pas le moteur. Glorifier l'idole torturée, c'est risquer de confondre la cicatrice avec le talent, et de croire qu'il faut se blesser pour créer. C'est une erreur. Et une erreur dangereuse quand on en fait un modèle à suivre.</p>
 
-<p>Changer d'idoles, alors, ce serait choisir d'admirer autre chose : plus ceux qui ont tout sacrifié pour un nom, mais ceux qui ont réussi à vivre bien. Des modèles de joie tenable plutôt que de gloire douloureuse. C'est moins spectaculaire, ça fait pas de légende. Mais c'est peut-être exactement ce dont on a besoin pour avancer sans se détruire en croyant s'élever.</p>`
+<p>Changer d'idoles, alors, ce serait choisir d'admirer autre chose : plus ceux qui ont tout sacrifié pour un nom, mais ceux qui ont réussi à vivre bien. Des modèles de joie tenable plutôt que de gloire douloureuse. C'est moins spectaculaire, ça fait pas de légende. Mais c'est peut-être exactement ce dont on a besoin pour avancer sans se détruire en croyant s'élever.</p>`,
+    brouillon: true
   },
   {
     id: "anticiper-confiance-futur",
@@ -433,6 +458,7 @@ const ARTICLES = [
 
 <p>Et c'est contre-productif pour une raison bête : on peut pas tout prévoir. Le réel dévie toujours du plan. Plus le plan est rigide et détaillé, plus il casse au premier imprévu, et plus tu te retrouves démuni — justement parce que t'as misé sur le contrôle au lieu de miser sur ta capacité à t'adapter. Le besoin de tout maîtriser te fragilise au lieu de te protéger.</p>
 
-<p>Y a un truc paradoxal et hyper libérateur là-dedans. Renforcer sa confiance en soi, c'est pas planifier mieux. C'est planifier moins, et apprendre à se reposer sur l'idée qu'on saura faire le moment venu. Faire confiance à ton toi futur, c'est lui laisser de la marge. Et cette marge, loin d'être un risque, c'est souvent ce qui te rend vraiment capable de répondre au réel tel qu'il arrive — pas tel que tu l'avais imaginé.</p>`
+<p>Y a un truc paradoxal et hyper libérateur là-dedans. Renforcer sa confiance en soi, c'est pas planifier mieux. C'est planifier moins, et apprendre à se reposer sur l'idée qu'on saura faire le moment venu. Faire confiance à ton toi futur, c'est lui laisser de la marge. Et cette marge, loin d'être un risque, c'est souvent ce qui te rend vraiment capable de répondre au réel tel qu'il arrive — pas tel que tu l'avais imaginé.</p>`,
+    brouillon: true
   }
 ];
