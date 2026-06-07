@@ -63,7 +63,7 @@ const ARTICLES = [
     sousTitre: "Sur la différence entre devenir soi et se fabriquer un personnage",
     cat: "Soi",
     tweet: "« J'essaie plus d'être moi, j'essaie d'être quelqu'un. » La phrase qui résume comment on se perd : en visant une image au lieu d'une personne.",
-    minutes: 4,
+    minutes: 2,
     corps: `<p>J'essaie pas d'être moi, j'essaie d'être quelqu'un, c'est mon erreur, je me suis perdu. Je me suis noté cette phrase un soir, et plus j'y repense, plus je trouve qu'elle décrit un piège dans lequel des tas de gens tombent sans même s'en rendre compte. Moi le premier.</p>
 
 <p>Parce qu'il y a une différence entre les deux, et on la voit pas. Être quelqu'un, c'est courir après une image : passer pour intelligent, pour engagé, pour spécial. C'est se construire de dehors, en fonction de ce qu'on imagine que les autres pensent de nous. Être soi, c'est exactement l'inverse : partir du dedans, de ce qu'on ressent vraiment, de ce qui compte pour nous, sans d'abord se demander quel effet ça va faire.</p>
