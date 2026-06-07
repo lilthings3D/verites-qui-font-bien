@@ -329,7 +329,7 @@
     <section class="masthead">
       <div class="kicker">Réflexions à voix basse</div>
       <h1>Tête <span class="l2">vide</span></h1>
-      <p class="tagline"> Idées en vrac posées ici pour voir si elles tiennent debout.</p>
+      <p class="tagline">Des pensées en vrac sur tout et n'importe quoi, posées ici pour voir si elles tiennent debout.</p>
     </section>
 
     <!-- LA UNE -->
@@ -381,8 +381,11 @@
   const now=new Date();
   document.getElementById("today").textContent = now.getDate()+" "+months[now.getMonth()]+" "+now.getFullYear();
 
+  // on retire les brouillons de tout ce qui est visible aux lecteurs
+  const ARTICLES_PUBLIES = ARTICLES.filter(a => !a.brouillon);
+
   // une aléatoire, tirée une fois par chargement de page
-  const featuredId = ARTICLES[Math.floor(Math.random()*ARTICLES.length)].id;
+  const featuredId = ARTICLES_PUBLIES[Math.floor(Math.random()*ARTICLES_PUBLIES.length)].id;
 
   function excerptOf(a, len){
     const m = a.corps.match(/<p>(.*?)<\/p>/);
@@ -391,7 +394,7 @@
   }
 
   function renderFeature(){
-    const a = ARTICLES.find(x=>x.id===featuredId) || ARTICLES[0];
+    const a = ARTICLES_PUBLIES.find(x=>x.id===featuredId) || ARTICLES_PUBLIES[0];
     const f = document.getElementById("feature");
     f.innerHTML = `
       <div class="f-side">
@@ -406,7 +409,7 @@
   }
 
   let activeCat = "Tout";
-  const cats = ["Tout", ...Array.from(new Set(ARTICLES.map(a=>a.cat)))];
+  const cats = ["Tout", ...Array.from(new Set(ARTICLES_PUBLIES.map(a=>a.cat)))];
 
   function renderFilters(){
     const f=document.getElementById("filters");
@@ -423,7 +426,7 @@
   function renderGrid(){
     const g=document.getElementById("grid");
     g.innerHTML="";
-    const list = activeCat==="Tout"?ARTICLES:ARTICLES.filter(a=>a.cat===activeCat);
+    const list = activeCat==="Tout"?ARTICLES_PUBLIES:ARTICLES_PUBLIES.filter(a=>a.cat===activeCat);
     list.forEach((a,i)=>{
       const c=document.createElement("article");
       c.className="card";
@@ -534,7 +537,7 @@
   function openArticle(id){
     const a=ARTICLES.find(x=>x.id===id);
     if(!a)return;
-    const others=ARTICLES.filter(x=>x.id!==id);
+    const others=ARTICLES_PUBLIES.filter(x=>x.id!==id);
     const next=others[Math.floor(Math.random()*others.length)];
     const html=`
       <div class="art-head">
