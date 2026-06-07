@@ -44,18 +44,16 @@ const ARTICLES = [
     cat: "Vivre",
     tweet: "On peut te donner le meilleur conseil de la terre : tant que la décision ne vient pas de toi, elle ne tient pas. Petite théorie sur pourquoi les conseils des autres glissent sur nous.",
     minutes: 4,
-    corps: `<p>Tu peux écouter tous les conseils du monde, il faut quand même que ça vienne de toi. J'ai mis des années à vraiment comprendre cette phrase — et encore, je l'ai comprise en disant, pas en l'entendant.</p>
+    corps: `<p>Tu peux écouter tous les conseils du monde, il faut quand même que ça vienne de toi. Un conseil reste toujours un objet posé à l'extérieur de toi. Quelqu'un te tend une clé, mais la serrure, elle est au-dedans, et lui n'y a pas accès. Il a beau te tendre la bonne clé, c'est toi qui dois la prendre et la tourner. Tant que tu ne l'as pas fait toi-même, le conseil reste à côté, parfaitement juste et parfaitement inutile.</p>
 
-<p>Le truc, c'est qu'un conseil reste toujours un objet posé à l'extérieur de toi. Quelqu'un te tend une clé, mais la serrure, elle est au-dedans, et lui n'y a pas accès. Il a beau te tendre la bonne clé, c'est toi qui dois la prendre et la tourner. Tant que tu ne l'as pas fait toi-même, le conseil reste à côté, parfaitement juste et parfaitement inutile.</p>
+<p>Dans Inception le film tourne un peu autour de ça. Les personnages ne cherchent pas à voler une idée, ça c'est facile, mais à en <em>implanter</em> une dans la tête de quelqu'un. Et c'est présenté comme la chose la plus difficile au monde, presque impossible. Parce qu'un cerveau repère toujours l'idée étrangère. Pour qu'elle prenne, il faut que la personne croie l'avoir trouvée elle-même. Il faut planter une graine si profond qu'au réveil, elle se dit « c'est mon idée ». Sinon elle la rejette.</p>
 
-<p>Tu te souviens d'Inception ? Tout le film tourne autour de ça. Les personnages ne cherchent pas à voler une idée, ça c'est facile, mais à en <em>implanter</em> une dans la tête de quelqu'un. Et c'est présenté comme la chose la plus difficile au monde, presque impossible. Parce qu'un cerveau repère toujours l'idée étrangère. Pour qu'elle prenne, il faut que la personne croie l'avoir trouvée elle-même. Il faut planter une graine si profond qu'au réveil, elle se dit « c'est mon idée ». Sinon elle la rejette.</p>
+<p>Les conseils, c'est pareil. Tant que ça reste l'idée de l'autre, ton cerveau la traite comme un corps étranger — il l'écoute poliment et la repousse. Elle ne commence à agir que le jour où tu finis par l'assimiler et la transformer en ta propre idée. Et ça, personne ne peut le faire à ta place.</p>
 
-<p>Les conseils, c'est pareil. Tant que ça reste l'idée de l'autre, ton cerveau la traite comme un corps étranger — il l'écoute poliment et la repousse. Elle ne devient agissante que le jour où elle a fini par se transformer en ta propre idée. Et ça, personne ne peut le faire à ta place.</p>
+<p>C'est pour ça qu'on peut voir un proche foncer droit dans le mur, lui donner exactement le bon conseil, et le regarder continuer quand même sa route. Ça rend dingue. Mais il n'a pas mal compris. C'est juste que comprendre dans sa tête et basculer dans tout son corps, ce sont deux choses qui n'ont rien à voir. La première ne déclenche pas la seconde. La bascule ne se commande pas du dehors.</p>
 
-<p>C'est pour ça qu'on peut voir un proche foncer droit dans le mur, lui dire exactement la chose juste, et le regarder continuer sa route. Ça rend dingue. Mais il n'a pas mal compris. C'est juste que comprendre dans sa tête et basculer dans tout son corps, ce sont deux choses qui n'ont rien à voir. La première ne déclenche pas la seconde. La bascule ne se commande pas du dehors.</p>
-
-<p>Alors à quoi servent les conseils, si on ne peut pas les implanter ? À planter des graines, justement. Pas à provoquer le changement, mais à le préparer. On te dit une phrase, elle ne te fait rien sur le moment, elle se range quelque part et elle dort. Parfois des années. Et un jour ta propre vie vient la cogner, et là tu te dis « Oh, je vois». Ce jour-là, le conseil ne vient plus de l'autre. Il est devenu le tien. Et c'est seulement là, une fois qu'il vient de toi, qu'il se met enfin à agir.</p>`,
-    brouillon: true
+<p>Alors à quoi servent les conseils, si on ne peut pas les implanter ? À planter des graines, justement. Pas à provoquer le changement, mais à le préparer. On te dit une phrase, elle ne te fait rien sur le moment, elle se range quelque part et elle dort. Parfois des années. Et un jour la graine commence à germer. Ce jour-là, le conseil ne vient plus de l'autre. Il est devenu le tien. Et c'est seulement là, une fois qu'il vient de toi, qu'il se met enfin à agir.</p>`,
+    brouillon: false
   },
   {
     id: "etre-moi-etre-quelquun",
