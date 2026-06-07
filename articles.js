@@ -66,14 +66,14 @@ const ARTICLES = [
     minutes: 4,
     corps: `<p>J'essaie pas d'être moi, j'essaie d'être quelqu'un, c'est mon erreur, je me suis perdu. Je me suis noté cette phrase un soir, et plus j'y repense, plus je trouve qu'elle décrit un piège dans lequel des tas de gens tombent sans même s'en rendre compte. Moi le premier.</p>
 
-<p>Parce qu'il y a une différence énorme entre les deux, et on la voit pas. Être quelqu'un, c'est courir après une image : passer pour intelligent, pour engagé, pour spécial. C'est se construire de dehors, en fonction de ce qu'on imagine que les autres pensent de nous. Être soi, c'est exactement l'inverse : partir du dedans, de ce qu'on ressent vraiment, de ce qui compte pour nous, sans d'abord se demander quel effet ça va faire. Ça paraît proche. En vrai ça tire dans deux directions opposées.</p>
+<p>Parce qu'il y a une différence entre les deux, et on la voit pas. Être quelqu'un, c'est courir après une image : passer pour intelligent, pour engagé, pour spécial. C'est se construire de dehors, en fonction de ce qu'on imagine que les autres pensent de nous. Être soi, c'est exactement l'inverse : partir du dedans, de ce qu'on ressent vraiment, de ce qui compte pour nous, sans d'abord se demander quel effet ça va faire.</p>
 
-<p>Kierkegaard a eu une formule qui m'a marqué : la pire des détresses, c'est celle qu'on ne remarque même pas — vouloir être un autre que soi. Et ce qui est vicieux, c'est justement qu'on ne la voit pas venir. On entretient le personnage, on le peaufine, et plus il grossit, plus il bouffe la place de ce qu'il y avait en dessous. Jusqu'au jour où on se regarde et où on ne se reconnaît plus du tout.</p>
+<p>On entretient un personnage, on le peaufine, et plus il grossit, plus il bouffe la place de ce qu'il y avait en dessous. Jusqu'au jour où on se regarde et où on ne se reconnaît plus du tout.</p>
 
 <p>Je me suis écrit autre chose, ailleurs, qui répond pile à ça : tu as basé ton amour-propre sur le fait d'être exceptionnel, mais c'est inatteignable, mon pote. Je suis comme tout le monde, et c'est super en fait. Ni mieux ni moins bien que quiconque. Je crois que c'est exactement le remède. Lâcher l'idée d'être quelqu'un de spécial, ce n'est pas se résigner. C'est libérer la place pour être enfin soi-même.</p>
 
-<p>Et il y a un truc marrant là-dedans : on n'est jamais aussi unique que quand on arrête d'essayer de l'être. Le personnage qu'on se fabrique, il ressemble toujours à d'autres personnages — c'est du déjà-vu. Alors que toi, le vrai, t'as pas d'équivalent. À condition d'arrêter de te maquiller pour ressembler à l'idée que tu te fais de quelqu'un de bien.</p>`,
-    brouillon: true
+<p>Et il y a un truc marrant là-dedans : on n'est jamais aussi unique que quand on arrête d'essayer de l'être. Le personnage qu'on se fabrique, il ressemble toujours à quelqu'un qui nous inspire, mais du coup c'est du déjà-vu. Alors que toi, le vrai toi, n'as pas d'équivalent. À condition d'arrêter de te maquiller pour ressembler à l'idée que tu te fais de quelqu'un de bien.</p>`,
+    brouillon: false
   },
   {
     id: "vis-rouillee-echelle",
