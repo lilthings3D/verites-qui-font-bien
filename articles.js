@@ -68,7 +68,7 @@ const ARTICLES = [
     sousTitre: "Une question posée en sortant de chez ma grand-mère",
     cat: "Vivre",
     tweet: "Je sors de chez ma grand-mère. Elle dit qu'elle ne vit plus vraiment, qu'elle en a assez. Et je me retrouve sans réponse : à quoi ça sert, au juste, de vivre vieux ?",
-    minutes: 4,
+    minutes: 2,
     corps: `<p>e sors de chez ma grand-mère, elle vient de me dire qu'elle est fatiguée de vivre, même pas en dépression, elle en a juste assez. Elle perd peu à peu ses mots, elle a perdu toutes les personnes qu'elle connaissait, ne peut plus rien faire, même regarder la télé c'est une épreuve. Elle n'arrive presque plus à marcher ni à réfléchir. Elle en a marre, et logiquement je me demande : pourquoi vivre si vieux ?</p>
     
 <p>L'idée générale veut que la vie soit précieuse, qu'il faut la préserver, l'allonger, la défendre coûte que coûte. On ne discute même plus à ce sujet, ne pas tuer c'est la norme. Mais quand la personne concernée, elle, te dit qu'elle ne vit plus — qu'est-ce qu'on préserve, exactement ? La durée ? Le nombre d'années ? J'ai du mal à comprendre à quel moment c'est la quantité de vie qu'on protège, et à quel moment c'est autre chose.</p>
@@ -84,7 +84,7 @@ const ARTICLES = [
     sousTitre: "Lettre à un moi qui voulait être exceptionnel",
     cat: "Soi",
     tweet: "On peut passer trente ans à vouloir être exceptionnel et découvrir que le soulagement est de l'autre côté : être comme tout le monde. Et que c'est super.",
-    minutes: 3,
+    minutes: 2,
     corps: `<p>Je me suis écrit une lettre, un soir. Je la recopie presque telle quelle, parce que je me dis qu'elle peut parler à quelqu'un d'autre que moi.</p>
 
 <p><em>Fiston, aime-toi s'il te plaît. J'ai l'impression que tu as basé une bonne partie de ton amour-propre sur l'image d'un toi « exceptionnel ». Mais c'est inatteignable, mon pote. Je suis comme tout le monde, et c'est super en fait. Ni mieux ni moins bien que quiconque. Alors ne te prends pas trop la tête. Avance. Fais ce qui doit être fait. Trouve un objectif. N'aie pas peur de l'avenir, car de toute façon il finira par arriver. Chaque jour est une opportunité.</em></p>
